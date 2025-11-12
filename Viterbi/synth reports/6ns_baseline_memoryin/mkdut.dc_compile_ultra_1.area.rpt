@@ -1,0 +1,131 @@
+ 
+****************************************
+Report : area
+Design : mkdut
+Version: U-2022.12
+Date   : Thu Nov  6 09:39:41 2025
+****************************************
+
+Library(s) Used:
+
+    saed32lvt_ss0p75v25c (File: /home/tools/pdk/SAED32nm_EDK_02_2024/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75v25c.db)
+
+Number of ports:                          831
+Number of nets:                          8611
+Number of cells:                         7935
+Number of combinational cells:           5305
+Number of sequential cells:              2540
+Number of macros/black boxes:               0
+Number of buf/inv:                        952
+Number of references:                     123
+
+Combinational area:              12326.746470
+Buf/Inv area:                     1237.935425
+Noncombinational area:           16657.106583
+Macro/Black Box area:                0.000000
+Net Interconnect area:            9570.318615
+
+Total cell area:                 28983.853052
+Total area:                      38554.171667
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ------------------------------ 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-   Black-
+                                  Total       Total    national    national    boxes   Design
+--------------------------------  ----------  -------  ----------  ----------  ------  ---------------------------------------
+mkdut                             28983.8531    100.0  11016.1258  13896.0861  0.0000  mkdut
+clk_gate_iCounter_Comp_reg            8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_0
+clk_gate_iCounter_stage1_reg          8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_1
+clk_gate_jCounter_Comp_reg            8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_2
+clk_gate_jCounter_stage1_reg          8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_3
+clk_gate_numStates_reg                8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_4
+clk_gate_prevMax_0_reg                8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_5
+clk_gate_prevMax_10_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_7
+clk_gate_prevMax_11_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_8
+clk_gate_prevMax_12_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_9
+clk_gate_prevMax_13_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_10
+clk_gate_prevMax_14_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_11
+clk_gate_prevMax_15_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_12
+clk_gate_prevMax_16_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_13
+clk_gate_prevMax_17_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_14
+clk_gate_prevMax_18_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_15
+clk_gate_prevMax_19_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_16
+clk_gate_prevMax_1_reg                8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_6
+clk_gate_prevMax_20_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_18
+clk_gate_prevMax_21_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_19
+clk_gate_prevMax_22_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_20
+clk_gate_prevMax_23_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_21
+clk_gate_prevMax_24_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_22
+clk_gate_prevMax_25_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_23
+clk_gate_prevMax_26_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_24
+clk_gate_prevMax_27_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_25
+clk_gate_prevMax_28_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_26
+clk_gate_prevMax_29_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_27
+clk_gate_prevMax_2_reg                8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_17
+clk_gate_prevMax_30_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_29
+clk_gate_prevMax_31_reg               8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_30
+clk_gate_prevMax_3_reg                8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_28
+clk_gate_prevMax_4_reg                8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_31
+clk_gate_prevMax_5_reg                8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_32
+clk_gate_prevMax_6_reg                8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_33
+clk_gate_prevMax_7_reg                8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_34
+clk_gate_prevMax_8_reg                8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_35
+clk_gate_prevMax_9_reg                8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_36
+clk_gate_prevMax_inter_0_reg          8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_37
+clk_gate_prevMax_inter_10_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_39
+clk_gate_prevMax_inter_11_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_40
+clk_gate_prevMax_inter_12_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_41
+clk_gate_prevMax_inter_13_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_42
+clk_gate_prevMax_inter_14_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_43
+clk_gate_prevMax_inter_15_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_44
+clk_gate_prevMax_inter_16_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_45
+clk_gate_prevMax_inter_17_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_46
+clk_gate_prevMax_inter_18_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_47
+clk_gate_prevMax_inter_19_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_48
+clk_gate_prevMax_inter_1_reg          8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_38
+clk_gate_prevMax_inter_20_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_50
+clk_gate_prevMax_inter_21_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_51
+clk_gate_prevMax_inter_22_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_52
+clk_gate_prevMax_inter_23_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_53
+clk_gate_prevMax_inter_24_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_54
+clk_gate_prevMax_inter_25_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_55
+clk_gate_prevMax_inter_26_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_56
+clk_gate_prevMax_inter_27_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_57
+clk_gate_prevMax_inter_28_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_58
+clk_gate_prevMax_inter_29_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_59
+clk_gate_prevMax_inter_2_reg          8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_49
+clk_gate_prevMax_inter_30_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_61
+clk_gate_prevMax_inter_31_reg         8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_62
+clk_gate_prevMax_inter_3_reg          8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_60
+clk_gate_prevMax_inter_4_reg          8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_63
+clk_gate_prevMax_inter_5_reg          8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_64
+clk_gate_prevMax_inter_6_reg          8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_65
+clk_gate_prevMax_inter_7_reg          8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_66
+clk_gate_prevMax_inter_8_reg          8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_67
+clk_gate_prevMax_inter_9_reg          8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_68
+clk_gate_tempMaxi_reg                 8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_69
+clk_gate_tempMaxj_reg                 8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_70
+clk_gate_termReg_reg                  8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_71
+clk_gate_timeS_reg                    8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_72
+inp_F                               209.9229      0.7     60.9946    132.1549  0.0000  FIFO2_00000009_1
+inp_F/clk_gate_data0_reg_reg          8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000009_1_0
+inp_F/clk_gate_data1_reg_reg          8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000009_1_1
+preAdd_F                           1368.5655      4.7    479.5697    872.2222  0.0000  FIFO2_00000043_1
+preAdd_F/clk_gate_data0_reg_reg       8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000043_1_0
+preAdd_F/clk_gate_data1_reg_reg       8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000043_1_1
+preCom_F                            694.5756      2.4    215.2600    462.5421  0.0000  FIFO2_00000023_1
+preCom_F/clk_gate_data0_reg_reg       8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000023_1_0
+preCom_F/clk_gate_data1_reg_reg       8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000023_1_1
+preMem_F                            860.7858      3.0    196.4533    647.5589  0.0000  FIFO2_00000031_1
+preMem_F/clk_gate_data0_reg_reg       8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000031_1_0
+preMem_F/clk_gate_data1_reg_reg       8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000031_1_1
+preTrace_F                          325.5585      1.1     84.1217    224.6633  0.0000  FIFO2_00000010_1
+preTrace_F/clk_gate_data0_reg_reg     8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000010_1_0
+preTrace_F/clk_gate_data1_reg_reg     8.3868      0.0      3.3039      5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000010_1_1
+--------------------------------  ----------  -------  ----------  ----------  ------  ---------------------------------------
+Total                                                  12326.7465  16657.1066  0.0000
+
+1

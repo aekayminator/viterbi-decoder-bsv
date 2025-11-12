@@ -1,0 +1,81 @@
+ 
+****************************************
+Report : area
+Design : mkdut
+Version: U-2022.12
+Date   : Tue Nov 11 11:59:55 2025
+****************************************
+
+Library(s) Used:
+
+    saed32lvt_ss0p75v25c (File: /home/tools/pdk/SAED32nm_EDK_02_2024/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75v25c.db)
+
+Number of ports:                         1089
+Number of nets:                          5092
+Number of cells:                         4133
+Number of combinational cells:           3355
+Number of sequential cells:               737
+Number of macros/black boxes:               0
+Number of buf/inv:                        694
+Number of references:                      68
+
+Combinational area:               7501.822694
+Buf/Inv area:                      946.686405
+Noncombinational area:            4831.277593
+Macro/Black Box area:                0.000000
+Net Interconnect area:            2630.160668
+
+Total cell area:                 12333.100288
+Total area:                      14963.260956
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area           Local cell area
+                                  -------------------  ---------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-     Noncombi-  Black-
+                                  Total       Total    national   national   boxes   Design
+--------------------------------  ----------  -------  ---------  ---------  ------  ---------------------------------------
+mkdut                             12333.1003    100.0  2572.4456  1224.9741  0.0000  mkdut
+clk_gate_backTrackReg_0_reg           8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_0
+clk_gate_backTrackReg_1_reg           8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_1
+clk_gate_countTime_reg                8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_2
+clk_gate_iCounter_Comp_reg            8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_3
+clk_gate_iCounter_stage1_reg          8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_4
+clk_gate_jCounter_Comp_reg            8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_5
+clk_gate_jCounter_stage1_reg          8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_6
+clk_gate_numStates_reg                8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_7
+clk_gate_tempMaxi_reg                 8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_8
+clk_gate_tempMaxj_reg                 8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_9
+clk_gate_timeS_reg                    8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_10
+clk_gate_timeTotal_reg                8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_11
+clk_gate_valOut_reg                   8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_mkdut_12
+fpadder                            4562.6473     37.0  3481.2646   218.0556  0.0000  mkFPadder32
+fpadder/s1_to_s2_fifo               863.3272      7.0   331.1496   515.4040  0.0000  FIFO2_00000026_1_0
+fpadder/s1_to_s2_fifo/clk_gate_data0_reg_reg     8.3868     0.1    3.3039    5.0829 0.0000 SNPS_CLOCK_GATE_HIGH_FIFO2_00000026_1_0
+fpadder/s1_to_s2_fifo/clk_gate_data1_reg_reg     8.3868     0.1    3.3039    5.0829 0.0000 SNPS_CLOCK_GATE_HIGH_FIFO2_00000026_1_1
+inp_F                               209.9229      1.7    60.9946   132.1549  0.0000  FIFO2_00000009_1
+inp_F/clk_gate_data0_reg_reg          8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000009_1_0
+inp_F/clk_gate_data1_reg_reg          8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000009_1_1
+metadata_fifo                       121.2267      1.0    38.3757    66.0774  0.0000  FIFO2_00000004_1
+metadata_fifo/clk_gate_data0_reg_reg     8.3868     0.1    3.3039    5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000004_1_0
+metadata_fifo/clk_gate_data1_reg_reg     8.3868     0.1    3.3039    5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000004_1
+preAdd_F                           1197.7807      9.7   279.3043   901.7029  0.0000  FIFO2_00000044_1
+preAdd_F/clk_gate_data0_reg_reg       8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000044_1_0
+preAdd_F/clk_gate_data1_reg_reg       8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000044_1_1
+preCom_F                            735.4928      6.0   229.7462   488.9731  0.0000  FIFO2_00000024_1
+preCom_F/clk_gate_data0_reg_reg       8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000024_1_0
+preCom_F/clk_gate_data1_reg_reg       8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000024_1_1
+preMax_F                            703.4706      5.7   171.2931   515.4040  0.0000  FIFO2_00000026_1_1
+preMax_F/clk_gate_data0_reg_reg       8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000026_1_2
+preMax_F/clk_gate_data1_reg_reg       8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000026_1_3
+preMem_F                            450.8515      3.7   116.9062   317.1717  0.0000  FIFO2_00000017_1
+preMem_F/clk_gate_data0_reg_reg       8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000017_1_0
+preMem_F/clk_gate_data1_reg_reg       8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000017_1_1
+preTrace_F                          445.2603      3.6   124.5306   303.9562  0.0000  FIFO2_00000016_1
+preTrace_F/clk_gate_data0_reg_reg     8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000016_1_0
+preTrace_F/clk_gate_data1_reg_reg     8.3868      0.1     3.3039     5.0829  0.0000  SNPS_CLOCK_GATE_HIGH_FIFO2_00000016_1_1
+--------------------------------  ----------  -------  ---------  ---------  ------  ---------------------------------------
+Total                                                  7501.8227  4831.2776  0.0000
+
+1

@@ -1,0 +1,96 @@
+ 
+****************************************
+Report : qor
+Design : mkdut
+Version: U-2022.12
+Date   : Thu Nov  6 09:39:41 2025
+****************************************
+
+
+  Timing Path Group 'CLK'
+  -----------------------------------
+  Levels of Logic:              31.00
+  Critical Path Length:          3.76
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:      6.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.70
+  Total Hold Violation:        -45.76
+  No. of Hold Violations:       82.00
+  -----------------------------------
+
+  Timing Path Group 'f2f'
+  -----------------------------------
+  Levels of Logic:              39.00
+  Critical Path Length:          4.46
+  Critical Path Slack:           0.47
+  Critical Path Clk Period:      6.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.78
+  Total Hold Violation:      -1346.66
+  No. of Hold Violations:     2412.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:         88
+  Hierarchical Port Count:        636
+  Leaf Cell Count:               7845
+  Buf/Inv Cell Count:             952
+  Buf Cell Count:                   0
+  Inv Cell Count:                 952
+  CT Buf/Inv Cell Count:           83
+  Combinational Cell Count:      5305
+  Sequential Cell Count:         2540
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    12326.746470
+  Noncombinational Area: 16657.106583
+  Buf/Inv Area:           1237.935425
+  Total Buffer Area:             0.00
+  Total Inverter Area:        1237.94
+  Macro/Black Box Area:      0.000000
+  Net Area:               9570.318615
+  -----------------------------------
+  Cell Area:             28983.853052
+  Design Area:           38554.171667
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          7988
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: varaha-eda.cs.iitm.ac.in
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    2.23
+  Logic Optimization:                 39.15
+  Mapping Optimization:               90.52
+  -----------------------------------------
+  Overall Compile Time:              219.86
+  Overall Compile Wall Clock Time:    58.65
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.78  TNS: 1392.42  Number of Violating Paths: 2494
+
+  --------------------------------------------------------------------
+
+
+1

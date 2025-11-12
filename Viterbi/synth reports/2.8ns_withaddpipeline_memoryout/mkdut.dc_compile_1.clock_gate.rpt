@@ -1,0 +1,1845 @@
+ 
+****************************************
+Report : clock_gating
+        -gating_elements
+        -gated
+        -verbose
+Design : mkdut
+Version: U-2022.12
+Date   : Tue Nov 11 11:59:56 2025
+****************************************
+
+Information: Identification of clock-gating cells has not been performed. Pre-existing clock-gating cells will not be reported. (PWR-947)
+--------------------------------------------------------------------------------
+                             Clock Gating Cell Report
+--------------------------------------------------------------------------------
+
+ Clock Gating Bank : clk_gate_valOut_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         clk_gate_valOut_reg/CLK = CLK 
+         clk_gate_valOut_reg/EN = N318 
+
+     OUTPUTS :
+         clk_gate_valOut_reg/ENCLK = net1407 
+
+     RELATED REGISTERS :
+		valOut_reg_0_
+		valOut_reg_1_
+		valOut_reg_2_
+		valOut_reg_3_
+		valOut_reg_4_
+		valOut_reg_5_
+		valOut_reg_6_
+		valOut_reg_7_
+		valOut_reg_8_
+		valOut_reg_9_
+		valOut_reg_10_
+		valOut_reg_11_
+		valOut_reg_12_
+		valOut_reg_13_
+		valOut_reg_14_
+		valOut_reg_15_
+		valOut_reg_16_
+		valOut_reg_17_
+		valOut_reg_18_
+		valOut_reg_19_
+		valOut_reg_20_
+		valOut_reg_21_
+		valOut_reg_22_
+		valOut_reg_23_
+		valOut_reg_24_
+		valOut_reg_25_
+		valOut_reg_26_
+		valOut_reg_27_
+		valOut_reg_28_
+		valOut_reg_29_
+		valOut_reg_30_
+		valOut_reg_31_
+
+ Clock Gating Bank : clk_gate_timeTotal_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         clk_gate_timeTotal_reg/CLK = CLK 
+         clk_gate_timeTotal_reg/EN = n1160 
+
+     OUTPUTS :
+         clk_gate_timeTotal_reg/ENCLK = net1412 
+
+     RELATED REGISTERS :
+		timeTotal_reg_0_
+		timeTotal_reg_1_
+		timeTotal_reg_2_
+		timeTotal_reg_3_
+		timeTotal_reg_4_
+		timeTotal_reg_5_
+		timeTotal_reg_6_
+		timeTotal_reg_7_
+		timeTotal_reg_8_
+		timeTotal_reg_9_
+
+ Clock Gating Bank : clk_gate_timeS_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         clk_gate_timeS_reg/CLK = CLK 
+         clk_gate_timeS_reg/EN = N293 
+
+     OUTPUTS :
+         clk_gate_timeS_reg/ENCLK = net1417 
+
+     RELATED REGISTERS :
+		timeS_reg_0_
+		timeS_reg_1_
+		timeS_reg_2_
+		timeS_reg_3_
+		timeS_reg_4_
+		timeS_reg_5_
+		timeS_reg_6_
+		timeS_reg_7_
+		timeS_reg_8_
+		timeS_reg_9_
+
+ Clock Gating Bank : clk_gate_tempMaxj_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         clk_gate_tempMaxj_reg/CLK = CLK 
+         clk_gate_tempMaxj_reg/EN = N255 
+
+     OUTPUTS :
+         clk_gate_tempMaxj_reg/ENCLK = net1422 
+
+     RELATED REGISTERS :
+		tempMaxj_reg_3_
+		tempMaxj_reg_11_
+		tempMaxj_reg_5_
+		tempMaxj_reg_4_
+		tempMaxj_reg_13_
+		tempMaxj_reg_1_
+		tempMaxj_reg_9_
+		tempMaxj_reg_0_
+		tempMaxj_reg_2_
+		tempMaxj_reg_6_
+		tempMaxj_reg_7_
+		tempMaxj_reg_8_
+		tempMaxj_reg_10_
+		tempMaxj_reg_12_
+		tempMaxj_reg_14_
+		tempMaxj_reg_15_
+		tempMaxj_reg_16_
+		tempMaxj_reg_17_
+		tempMaxj_reg_18_
+		tempMaxj_reg_19_
+		tempMaxj_reg_20_
+		tempMaxj_reg_21_
+		tempMaxj_reg_22_
+		tempMaxj_reg_23_
+		tempMaxj_reg_24_
+		tempMaxj_reg_25_
+		tempMaxj_reg_26_
+		tempMaxj_reg_27_
+		tempMaxj_reg_28_
+		tempMaxj_reg_29_
+		tempMaxj_reg_30_
+		tempMaxj_reg_31_
+		tempMaxj_reg_32_
+		tempMaxj_reg_33_
+		tempMaxj_reg_34_
+		tempMaxj_reg_35_
+		tempMaxj_reg_36_
+
+ Clock Gating Bank : clk_gate_tempMaxi_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         clk_gate_tempMaxi_reg/CLK = CLK 
+         clk_gate_tempMaxi_reg/EN = N217 
+
+     OUTPUTS :
+         clk_gate_tempMaxi_reg/ENCLK = net1427 
+
+     RELATED REGISTERS :
+		tempMaxi_reg_3_
+		tempMaxi_reg_1_
+		tempMaxi_reg_36_
+		tempMaxi_reg_34_
+		tempMaxi_reg_32_
+		tempMaxi_reg_20_
+		tempMaxi_reg_18_
+		tempMaxi_reg_16_
+		tempMaxi_reg_12_
+		tempMaxi_reg_10_
+		tempMaxi_reg_4_
+		tempMaxi_reg_2_
+		tempMaxi_reg_0_
+		tempMaxi_reg_21_
+		tempMaxi_reg_19_
+		tempMaxi_reg_11_
+		tempMaxi_reg_9_
+		tempMaxi_reg_35_
+		tempMaxi_reg_33_
+		tempMaxi_reg_5_
+		tempMaxi_reg_6_
+		tempMaxi_reg_7_
+		tempMaxi_reg_8_
+		tempMaxi_reg_13_
+		tempMaxi_reg_14_
+		tempMaxi_reg_15_
+		tempMaxi_reg_17_
+		tempMaxi_reg_22_
+		tempMaxi_reg_23_
+		tempMaxi_reg_24_
+		tempMaxi_reg_25_
+		tempMaxi_reg_26_
+		tempMaxi_reg_27_
+		tempMaxi_reg_28_
+		tempMaxi_reg_29_
+		tempMaxi_reg_30_
+		tempMaxi_reg_31_
+
+ Clock Gating Bank : clk_gate_numStates_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         clk_gate_numStates_reg/CLK = CLK 
+         clk_gate_numStates_reg/EN = N211 
+
+     OUTPUTS :
+         clk_gate_numStates_reg/ENCLK = net1432 
+
+     RELATED REGISTERS :
+		numStates_reg_0_
+		numStates_reg_1_
+		numStates_reg_2_
+		numStates_reg_3_
+		numStates_reg_4_
+
+ Clock Gating Bank : clk_gate_jCounter_stage1_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         clk_gate_jCounter_stage1_reg/CLK = CLK 
+         clk_gate_jCounter_stage1_reg/EN = N205 
+
+     OUTPUTS :
+         clk_gate_jCounter_stage1_reg/ENCLK = net1437 
+
+     RELATED REGISTERS :
+		jCounter_stage1_reg_0_
+		jCounter_stage1_reg_1_
+		jCounter_stage1_reg_2_
+		jCounter_stage1_reg_3_
+		jCounter_stage1_reg_4_
+
+ Clock Gating Bank : clk_gate_jCounter_Comp_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         clk_gate_jCounter_Comp_reg/CLK = CLK 
+         clk_gate_jCounter_Comp_reg/EN = N199 
+
+     OUTPUTS :
+         clk_gate_jCounter_Comp_reg/ENCLK = net1442 
+
+     RELATED REGISTERS :
+		jCounter_Comp_reg_0_
+		jCounter_Comp_reg_1_
+		jCounter_Comp_reg_2_
+		jCounter_Comp_reg_3_
+		jCounter_Comp_reg_4_
+
+ Clock Gating Bank : clk_gate_iCounter_stage1_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         clk_gate_iCounter_stage1_reg/CLK = CLK 
+         clk_gate_iCounter_stage1_reg/EN = n1068 
+
+     OUTPUTS :
+         clk_gate_iCounter_stage1_reg/ENCLK = net1447 
+
+     RELATED REGISTERS :
+		iCounter_stage1_reg_0_
+		iCounter_stage1_reg_1_
+		iCounter_stage1_reg_2_
+		iCounter_stage1_reg_3_
+		iCounter_stage1_reg_4_
+
+ Clock Gating Bank : clk_gate_iCounter_Comp_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         clk_gate_iCounter_Comp_reg/CLK = CLK 
+         clk_gate_iCounter_Comp_reg/EN = N183 
+
+     OUTPUTS :
+         clk_gate_iCounter_Comp_reg/ENCLK = net1452 
+
+     RELATED REGISTERS :
+		iCounter_Comp_reg_0_
+		iCounter_Comp_reg_1_
+		iCounter_Comp_reg_2_
+		iCounter_Comp_reg_3_
+		iCounter_Comp_reg_4_
+
+ Clock Gating Bank : clk_gate_countTime_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         clk_gate_countTime_reg/CLK = CLK 
+         clk_gate_countTime_reg/EN = N166 
+
+     OUTPUTS :
+         clk_gate_countTime_reg/ENCLK = net1457 
+
+     RELATED REGISTERS :
+		countTime_reg_0_
+		countTime_reg_8_
+		countTime_reg_7_
+		countTime_reg_6_
+		countTime_reg_5_
+		countTime_reg_4_
+		countTime_reg_3_
+		countTime_reg_2_
+		countTime_reg_1_
+		countTime_reg_9_
+
+ Clock Gating Bank : clk_gate_backTrackReg_1_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         clk_gate_backTrackReg_1_reg/CLK = CLK 
+         clk_gate_backTrackReg_1_reg/EN = N156 
+
+     OUTPUTS :
+         clk_gate_backTrackReg_1_reg/ENCLK = net1462 
+
+     RELATED REGISTERS :
+		backTrackReg_1_reg_0_
+		backTrackReg_1_reg_1_
+		backTrackReg_1_reg_2_
+		backTrackReg_1_reg_3_
+		backTrackReg_1_reg_4_
+
+ Clock Gating Bank : clk_gate_backTrackReg_0_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         clk_gate_backTrackReg_0_reg/CLK = CLK 
+         clk_gate_backTrackReg_0_reg/EN = n1033 
+
+     OUTPUTS :
+         clk_gate_backTrackReg_0_reg/ENCLK = net1467 
+
+     RELATED REGISTERS :
+		backTrackReg_0_reg_0_
+		backTrackReg_0_reg_1_
+		backTrackReg_0_reg_2_
+		backTrackReg_0_reg_3_
+		backTrackReg_0_reg_4_
+
+ Clock Gating Bank : inp_F/clk_gate_data1_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         inp_F/clk_gate_data1_reg_reg/CLK = CLK 
+         inp_F/clk_gate_data1_reg_reg/EN = d1di 
+
+     OUTPUTS :
+         inp_F/clk_gate_data1_reg_reg/ENCLK = net2209 
+
+     RELATED REGISTERS :
+		inp_F/data1_reg_reg_0_
+		inp_F/data1_reg_reg_1_
+		inp_F/data1_reg_reg_2_
+		inp_F/data1_reg_reg_3_
+		inp_F/data1_reg_reg_4_
+		inp_F/data1_reg_reg_5_
+		inp_F/data1_reg_reg_6_
+		inp_F/data1_reg_reg_7_
+		inp_F/data1_reg_reg_8_
+
+ Clock Gating Bank : inp_F/clk_gate_data0_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         inp_F/clk_gate_data0_reg_reg/CLK = CLK 
+         inp_F/clk_gate_data0_reg_reg/EN = n17 
+
+     OUTPUTS :
+         inp_F/clk_gate_data0_reg_reg/ENCLK = net2214 
+
+     RELATED REGISTERS :
+		inp_F/data0_reg_reg_0_
+		inp_F/data0_reg_reg_1_
+		inp_F/data0_reg_reg_2_
+		inp_F/data0_reg_reg_3_
+		inp_F/data0_reg_reg_4_
+		inp_F/data0_reg_reg_5_
+		inp_F/data0_reg_reg_6_
+		inp_F/data0_reg_reg_7_
+		inp_F/data0_reg_reg_8_
+
+ Clock Gating Bank : metadata_fifo/clk_gate_data1_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         metadata_fifo/clk_gate_data1_reg_reg/CLK = CLK 
+         metadata_fifo/clk_gate_data1_reg_reg/EN = d1di 
+
+     OUTPUTS :
+         metadata_fifo/clk_gate_data1_reg_reg/ENCLK = net2163 
+
+     RELATED REGISTERS :
+		metadata_fifo/data1_reg_reg_3_
+		metadata_fifo/data1_reg_reg_0_
+		metadata_fifo/data1_reg_reg_1_
+		metadata_fifo/data1_reg_reg_2_
+
+ Clock Gating Bank : metadata_fifo/clk_gate_data0_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, HOLD = 0.00, SETUP = 0.00, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         metadata_fifo/clk_gate_data0_reg_reg/CLK = CLK 
+         metadata_fifo/clk_gate_data0_reg_reg/EN = n20 
+
+     OUTPUTS :
+         metadata_fifo/clk_gate_data0_reg_reg/ENCLK = n19 
+
+     RELATED REGISTERS :
+		metadata_fifo/data0_reg_reg_3_
+		metadata_fifo/data0_reg_reg_2_
+		metadata_fifo/data0_reg_reg_1_
+		metadata_fifo/data0_reg_reg_0_
+
+ Clock Gating Bank : preAdd_F/clk_gate_data1_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         preAdd_F/clk_gate_data1_reg_reg/CLK = CLK 
+         preAdd_F/clk_gate_data1_reg_reg/EN = d1di 
+
+     OUTPUTS :
+         preAdd_F/clk_gate_data1_reg_reg/ENCLK = net2143 
+
+     RELATED REGISTERS :
+		preAdd_F/data1_reg_reg_0_
+		preAdd_F/data1_reg_reg_1_
+		preAdd_F/data1_reg_reg_2_
+		preAdd_F/data1_reg_reg_3_
+		preAdd_F/data1_reg_reg_4_
+		preAdd_F/data1_reg_reg_5_
+		preAdd_F/data1_reg_reg_6_
+		preAdd_F/data1_reg_reg_7_
+		preAdd_F/data1_reg_reg_8_
+		preAdd_F/data1_reg_reg_9_
+		preAdd_F/data1_reg_reg_10_
+		preAdd_F/data1_reg_reg_11_
+		preAdd_F/data1_reg_reg_12_
+		preAdd_F/data1_reg_reg_13_
+		preAdd_F/data1_reg_reg_14_
+		preAdd_F/data1_reg_reg_15_
+		preAdd_F/data1_reg_reg_16_
+		preAdd_F/data1_reg_reg_17_
+		preAdd_F/data1_reg_reg_18_
+		preAdd_F/data1_reg_reg_19_
+		preAdd_F/data1_reg_reg_20_
+		preAdd_F/data1_reg_reg_21_
+		preAdd_F/data1_reg_reg_22_
+		preAdd_F/data1_reg_reg_23_
+		preAdd_F/data1_reg_reg_24_
+		preAdd_F/data1_reg_reg_25_
+		preAdd_F/data1_reg_reg_26_
+		preAdd_F/data1_reg_reg_27_
+		preAdd_F/data1_reg_reg_28_
+		preAdd_F/data1_reg_reg_29_
+		preAdd_F/data1_reg_reg_30_
+		preAdd_F/data1_reg_reg_31_
+		preAdd_F/data1_reg_reg_33_
+		preAdd_F/data1_reg_reg_34_
+		preAdd_F/data1_reg_reg_35_
+		preAdd_F/data1_reg_reg_36_
+		preAdd_F/data1_reg_reg_37_
+		preAdd_F/data1_reg_reg_38_
+		preAdd_F/data1_reg_reg_39_
+		preAdd_F/data1_reg_reg_40_
+		preAdd_F/data1_reg_reg_41_
+		preAdd_F/data1_reg_reg_42_
+		preAdd_F/data1_reg_reg_43_
+		preAdd_F/data1_reg_reg_44_
+		preAdd_F/data1_reg_reg_45_
+		preAdd_F/data1_reg_reg_46_
+		preAdd_F/data1_reg_reg_47_
+		preAdd_F/data1_reg_reg_48_
+		preAdd_F/data1_reg_reg_49_
+		preAdd_F/data1_reg_reg_50_
+		preAdd_F/data1_reg_reg_51_
+		preAdd_F/data1_reg_reg_52_
+		preAdd_F/data1_reg_reg_53_
+		preAdd_F/data1_reg_reg_54_
+		preAdd_F/data1_reg_reg_55_
+		preAdd_F/data1_reg_reg_56_
+		preAdd_F/data1_reg_reg_57_
+		preAdd_F/data1_reg_reg_58_
+		preAdd_F/data1_reg_reg_59_
+		preAdd_F/data1_reg_reg_60_
+		preAdd_F/data1_reg_reg_61_
+		preAdd_F/data1_reg_reg_62_
+		preAdd_F/data1_reg_reg_63_
+		preAdd_F/data1_reg_reg_64_
+		preAdd_F/data1_reg_reg_65_
+		preAdd_F/data1_reg_reg_66_
+		preAdd_F/data1_reg_reg_67_
+
+ Clock Gating Bank : preAdd_F/clk_gate_data0_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         preAdd_F/clk_gate_data0_reg_reg/CLK = CLK 
+         preAdd_F/clk_gate_data0_reg_reg/EN = net1924 
+
+     OUTPUTS :
+         preAdd_F/clk_gate_data0_reg_reg/ENCLK = net2148 
+
+     RELATED REGISTERS :
+		preAdd_F/data0_reg_reg_56_
+		preAdd_F/data0_reg_reg_26_
+		preAdd_F/data0_reg_reg_59_
+		preAdd_F/data0_reg_reg_57_
+		preAdd_F/data0_reg_reg_24_
+		preAdd_F/data0_reg_reg_23_
+		preAdd_F/data0_reg_reg_25_
+		preAdd_F/data0_reg_reg_0_
+		preAdd_F/data0_reg_reg_1_
+		preAdd_F/data0_reg_reg_2_
+		preAdd_F/data0_reg_reg_3_
+		preAdd_F/data0_reg_reg_4_
+		preAdd_F/data0_reg_reg_5_
+		preAdd_F/data0_reg_reg_6_
+		preAdd_F/data0_reg_reg_7_
+		preAdd_F/data0_reg_reg_8_
+		preAdd_F/data0_reg_reg_9_
+		preAdd_F/data0_reg_reg_10_
+		preAdd_F/data0_reg_reg_11_
+		preAdd_F/data0_reg_reg_12_
+		preAdd_F/data0_reg_reg_13_
+		preAdd_F/data0_reg_reg_14_
+		preAdd_F/data0_reg_reg_15_
+		preAdd_F/data0_reg_reg_16_
+		preAdd_F/data0_reg_reg_17_
+		preAdd_F/data0_reg_reg_18_
+		preAdd_F/data0_reg_reg_19_
+		preAdd_F/data0_reg_reg_20_
+		preAdd_F/data0_reg_reg_21_
+		preAdd_F/data0_reg_reg_22_
+		preAdd_F/data0_reg_reg_27_
+		preAdd_F/data0_reg_reg_28_
+		preAdd_F/data0_reg_reg_29_
+		preAdd_F/data0_reg_reg_30_
+		preAdd_F/data0_reg_reg_31_
+		preAdd_F/data0_reg_reg_33_
+		preAdd_F/data0_reg_reg_34_
+		preAdd_F/data0_reg_reg_35_
+		preAdd_F/data0_reg_reg_36_
+		preAdd_F/data0_reg_reg_37_
+		preAdd_F/data0_reg_reg_38_
+		preAdd_F/data0_reg_reg_39_
+		preAdd_F/data0_reg_reg_40_
+		preAdd_F/data0_reg_reg_41_
+		preAdd_F/data0_reg_reg_42_
+		preAdd_F/data0_reg_reg_43_
+		preAdd_F/data0_reg_reg_44_
+		preAdd_F/data0_reg_reg_45_
+		preAdd_F/data0_reg_reg_46_
+		preAdd_F/data0_reg_reg_47_
+		preAdd_F/data0_reg_reg_48_
+		preAdd_F/data0_reg_reg_49_
+		preAdd_F/data0_reg_reg_50_
+		preAdd_F/data0_reg_reg_51_
+		preAdd_F/data0_reg_reg_52_
+		preAdd_F/data0_reg_reg_53_
+		preAdd_F/data0_reg_reg_54_
+		preAdd_F/data0_reg_reg_55_
+		preAdd_F/data0_reg_reg_58_
+		preAdd_F/data0_reg_reg_60_
+		preAdd_F/data0_reg_reg_61_
+		preAdd_F/data0_reg_reg_62_
+		preAdd_F/data0_reg_reg_63_
+		preAdd_F/data0_reg_reg_64_
+		preAdd_F/data0_reg_reg_65_
+		preAdd_F/data0_reg_reg_66_
+		preAdd_F/data0_reg_reg_67_
+
+ Clock Gating Bank : preCom_F/clk_gate_data1_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         preCom_F/clk_gate_data1_reg_reg/CLK = CLK 
+         preCom_F/clk_gate_data1_reg_reg/EN = d1di 
+
+     OUTPUTS :
+         preCom_F/clk_gate_data1_reg_reg/ENCLK = net1915 
+
+     RELATED REGISTERS :
+		preCom_F/data1_reg_reg_31_
+		preCom_F/data1_reg_reg_35_
+		preCom_F/data1_reg_reg_1_
+		preCom_F/data1_reg_reg_2_
+		preCom_F/data1_reg_reg_3_
+		preCom_F/data1_reg_reg_4_
+		preCom_F/data1_reg_reg_5_
+		preCom_F/data1_reg_reg_6_
+		preCom_F/data1_reg_reg_7_
+		preCom_F/data1_reg_reg_8_
+		preCom_F/data1_reg_reg_9_
+		preCom_F/data1_reg_reg_10_
+		preCom_F/data1_reg_reg_11_
+		preCom_F/data1_reg_reg_12_
+		preCom_F/data1_reg_reg_13_
+		preCom_F/data1_reg_reg_14_
+		preCom_F/data1_reg_reg_15_
+		preCom_F/data1_reg_reg_16_
+		preCom_F/data1_reg_reg_17_
+		preCom_F/data1_reg_reg_18_
+		preCom_F/data1_reg_reg_19_
+		preCom_F/data1_reg_reg_20_
+		preCom_F/data1_reg_reg_21_
+		preCom_F/data1_reg_reg_22_
+		preCom_F/data1_reg_reg_23_
+		preCom_F/data1_reg_reg_25_
+		preCom_F/data1_reg_reg_27_
+		preCom_F/data1_reg_reg_28_
+		preCom_F/data1_reg_reg_29_
+		preCom_F/data1_reg_reg_0_
+		preCom_F/data1_reg_reg_24_
+		preCom_F/data1_reg_reg_26_
+		preCom_F/data1_reg_reg_30_
+		preCom_F/data1_reg_reg_32_
+		preCom_F/data1_reg_reg_33_
+		preCom_F/data1_reg_reg_34_
+
+ Clock Gating Bank : preCom_F/clk_gate_data0_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         preCom_F/clk_gate_data0_reg_reg/CLK = CLK 
+         preCom_F/clk_gate_data0_reg_reg/EN = n135 
+
+     OUTPUTS :
+         preCom_F/clk_gate_data0_reg_reg/ENCLK = net1920 
+
+     RELATED REGISTERS :
+		preCom_F/data0_reg_reg_5_
+		preCom_F/data0_reg_reg_0_
+		preCom_F/data0_reg_reg_1_
+		preCom_F/data0_reg_reg_2_
+		preCom_F/data0_reg_reg_3_
+		preCom_F/data0_reg_reg_4_
+		preCom_F/data0_reg_reg_6_
+		preCom_F/data0_reg_reg_7_
+		preCom_F/data0_reg_reg_8_
+		preCom_F/data0_reg_reg_9_
+		preCom_F/data0_reg_reg_10_
+		preCom_F/data0_reg_reg_11_
+		preCom_F/data0_reg_reg_12_
+		preCom_F/data0_reg_reg_13_
+		preCom_F/data0_reg_reg_14_
+		preCom_F/data0_reg_reg_15_
+		preCom_F/data0_reg_reg_16_
+		preCom_F/data0_reg_reg_17_
+		preCom_F/data0_reg_reg_18_
+		preCom_F/data0_reg_reg_19_
+		preCom_F/data0_reg_reg_20_
+		preCom_F/data0_reg_reg_21_
+		preCom_F/data0_reg_reg_22_
+		preCom_F/data0_reg_reg_23_
+		preCom_F/data0_reg_reg_24_
+		preCom_F/data0_reg_reg_25_
+		preCom_F/data0_reg_reg_26_
+		preCom_F/data0_reg_reg_27_
+		preCom_F/data0_reg_reg_28_
+		preCom_F/data0_reg_reg_29_
+		preCom_F/data0_reg_reg_30_
+		preCom_F/data0_reg_reg_31_
+		preCom_F/data0_reg_reg_32_
+		preCom_F/data0_reg_reg_33_
+		preCom_F/data0_reg_reg_34_
+		preCom_F/data0_reg_reg_35_
+
+ Clock Gating Bank : preMax_F/clk_gate_data1_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         preMax_F/clk_gate_data1_reg_reg/CLK = CLK 
+         preMax_F/clk_gate_data1_reg_reg/EN = d1di 
+
+     OUTPUTS :
+         preMax_F/clk_gate_data1_reg_reg/ENCLK = net1783 
+
+     RELATED REGISTERS :
+		preMax_F/data1_reg_reg_31_
+		preMax_F/data1_reg_reg_29_
+		preMax_F/data1_reg_reg_21_
+		preMax_F/data1_reg_reg_19_
+		preMax_F/data1_reg_reg_17_
+		preMax_F/data1_reg_reg_13_
+		preMax_F/data1_reg_reg_11_
+		preMax_F/data1_reg_reg_25_
+		preMax_F/data1_reg_reg_1_
+		preMax_F/data1_reg_reg_3_
+		preMax_F/data1_reg_reg_15_
+		preMax_F/data1_reg_reg_9_
+		preMax_F/data1_reg_reg_5_
+		preMax_F/data1_reg_reg_27_
+		preMax_F/data1_reg_reg_23_
+		preMax_F/data1_reg_reg_7_
+		preMax_F/data1_reg_reg_0_
+		preMax_F/data1_reg_reg_2_
+		preMax_F/data1_reg_reg_4_
+		preMax_F/data1_reg_reg_6_
+		preMax_F/data1_reg_reg_8_
+		preMax_F/data1_reg_reg_10_
+		preMax_F/data1_reg_reg_12_
+		preMax_F/data1_reg_reg_14_
+		preMax_F/data1_reg_reg_16_
+		preMax_F/data1_reg_reg_18_
+		preMax_F/data1_reg_reg_20_
+		preMax_F/data1_reg_reg_22_
+		preMax_F/data1_reg_reg_24_
+		preMax_F/data1_reg_reg_26_
+		preMax_F/data1_reg_reg_28_
+		preMax_F/data1_reg_reg_30_
+		preMax_F/data1_reg_reg_32_
+		preMax_F/data1_reg_reg_33_
+		preMax_F/data1_reg_reg_34_
+		preMax_F/data1_reg_reg_35_
+		preMax_F/data1_reg_reg_36_
+		preMax_F/data1_reg_reg_37_
+
+ Clock Gating Bank : preMax_F/clk_gate_data0_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         preMax_F/clk_gate_data0_reg_reg/CLK = CLK 
+         preMax_F/clk_gate_data0_reg_reg/EN = n25 
+
+     OUTPUTS :
+         preMax_F/clk_gate_data0_reg_reg/ENCLK = net1788 
+
+     RELATED REGISTERS :
+		preMax_F/data0_reg_reg_14_
+		preMax_F/data0_reg_reg_4_
+		preMax_F/data0_reg_reg_10_
+		preMax_F/data0_reg_reg_2_
+		preMax_F/data0_reg_reg_8_
+		preMax_F/data0_reg_reg_12_
+		preMax_F/data0_reg_reg_20_
+		preMax_F/data0_reg_reg_16_
+		preMax_F/data0_reg_reg_18_
+		preMax_F/data0_reg_reg_31_
+		preMax_F/data0_reg_reg_29_
+		preMax_F/data0_reg_reg_21_
+		preMax_F/data0_reg_reg_19_
+		preMax_F/data0_reg_reg_17_
+		preMax_F/data0_reg_reg_13_
+		preMax_F/data0_reg_reg_11_
+		preMax_F/data0_reg_reg_25_
+		preMax_F/data0_reg_reg_1_
+		preMax_F/data0_reg_reg_3_
+		preMax_F/data0_reg_reg_15_
+		preMax_F/data0_reg_reg_9_
+		preMax_F/data0_reg_reg_5_
+		preMax_F/data0_reg_reg_27_
+		preMax_F/data0_reg_reg_23_
+		preMax_F/data0_reg_reg_7_
+		preMax_F/data0_reg_reg_26_
+		preMax_F/data0_reg_reg_28_
+		preMax_F/data0_reg_reg_24_
+		preMax_F/data0_reg_reg_30_
+		preMax_F/data0_reg_reg_22_
+		preMax_F/data0_reg_reg_6_
+		preMax_F/data0_reg_reg_0_
+		preMax_F/data0_reg_reg_32_
+		preMax_F/data0_reg_reg_33_
+		preMax_F/data0_reg_reg_34_
+		preMax_F/data0_reg_reg_35_
+		preMax_F/data0_reg_reg_36_
+		preMax_F/data0_reg_reg_37_
+
+ Clock Gating Bank : preMem_F/clk_gate_data1_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         preMem_F/clk_gate_data1_reg_reg/CLK = CLK 
+         preMem_F/clk_gate_data1_reg_reg/EN = d1di 
+
+     OUTPUTS :
+         preMem_F/clk_gate_data1_reg_reg/ENCLK = net1645 
+
+     RELATED REGISTERS :
+		preMem_F/data1_reg_reg_0_
+		preMem_F/data1_reg_reg_1_
+		preMem_F/data1_reg_reg_2_
+		preMem_F/data1_reg_reg_3_
+		preMem_F/data1_reg_reg_4_
+		preMem_F/data1_reg_reg_5_
+		preMem_F/data1_reg_reg_6_
+		preMem_F/data1_reg_reg_7_
+		preMem_F/data1_reg_reg_8_
+		preMem_F/data1_reg_reg_9_
+		preMem_F/data1_reg_reg_10_
+		preMem_F/data1_reg_reg_11_
+		preMem_F/data1_reg_reg_12_
+		preMem_F/data1_reg_reg_13_
+		preMem_F/data1_reg_reg_14_
+		preMem_F/data1_reg_reg_15_
+		preMem_F/data1_reg_reg_16_
+		preMem_F/data1_reg_reg_17_
+		preMem_F/data1_reg_reg_18_
+		preMem_F/data1_reg_reg_19_
+		preMem_F/data1_reg_reg_20_
+		preMem_F/data1_reg_reg_21_
+		preMem_F/data1_reg_reg_22_
+
+ Clock Gating Bank : preMem_F/clk_gate_data0_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         preMem_F/clk_gate_data0_reg_reg/CLK = CLK 
+         preMem_F/clk_gate_data0_reg_reg/EN = net1561 
+
+     OUTPUTS :
+         preMem_F/clk_gate_data0_reg_reg/ENCLK = net1650 
+
+     RELATED REGISTERS :
+		preMem_F/data0_reg_reg_22_
+		preMem_F/data0_reg_reg_21_
+		preMem_F/data0_reg_reg_20_
+		preMem_F/data0_reg_reg_0_
+		preMem_F/data0_reg_reg_19_
+		preMem_F/data0_reg_reg_18_
+		preMem_F/data0_reg_reg_17_
+		preMem_F/data0_reg_reg_16_
+		preMem_F/data0_reg_reg_15_
+		preMem_F/data0_reg_reg_14_
+		preMem_F/data0_reg_reg_13_
+		preMem_F/data0_reg_reg_12_
+		preMem_F/data0_reg_reg_11_
+		preMem_F/data0_reg_reg_10_
+		preMem_F/data0_reg_reg_9_
+		preMem_F/data0_reg_reg_8_
+		preMem_F/data0_reg_reg_7_
+		preMem_F/data0_reg_reg_6_
+		preMem_F/data0_reg_reg_5_
+		preMem_F/data0_reg_reg_4_
+		preMem_F/data0_reg_reg_3_
+		preMem_F/data0_reg_reg_2_
+		preMem_F/data0_reg_reg_1_
+
+ Clock Gating Bank : preTrace_F/clk_gate_data1_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         preTrace_F/clk_gate_data1_reg_reg/CLK = CLK 
+         preTrace_F/clk_gate_data1_reg_reg/EN = d1di 
+
+     OUTPUTS :
+         preTrace_F/clk_gate_data1_reg_reg/ENCLK = net1552 
+
+     RELATED REGISTERS :
+		preTrace_F/data1_reg_reg_0_
+		preTrace_F/data1_reg_reg_20_
+		preTrace_F/data1_reg_reg_1_
+		preTrace_F/data1_reg_reg_2_
+		preTrace_F/data1_reg_reg_3_
+		preTrace_F/data1_reg_reg_4_
+		preTrace_F/data1_reg_reg_5_
+		preTrace_F/data1_reg_reg_6_
+		preTrace_F/data1_reg_reg_7_
+		preTrace_F/data1_reg_reg_8_
+		preTrace_F/data1_reg_reg_9_
+		preTrace_F/data1_reg_reg_10_
+		preTrace_F/data1_reg_reg_11_
+		preTrace_F/data1_reg_reg_12_
+		preTrace_F/data1_reg_reg_13_
+		preTrace_F/data1_reg_reg_14_
+		preTrace_F/data1_reg_reg_15_
+		preTrace_F/data1_reg_reg_16_
+		preTrace_F/data1_reg_reg_17_
+		preTrace_F/data1_reg_reg_18_
+		preTrace_F/data1_reg_reg_19_
+		preTrace_F/data1_reg_reg_21_
+
+ Clock Gating Bank : preTrace_F/clk_gate_data0_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         preTrace_F/clk_gate_data0_reg_reg/CLK = CLK 
+         preTrace_F/clk_gate_data0_reg_reg/EN = n39 
+
+     OUTPUTS :
+         preTrace_F/clk_gate_data0_reg_reg/ENCLK = net1557 
+
+     RELATED REGISTERS :
+		preTrace_F/data0_reg_reg_21_
+		preTrace_F/data0_reg_reg_18_
+		preTrace_F/data0_reg_reg_16_
+		preTrace_F/data0_reg_reg_14_
+		preTrace_F/data0_reg_reg_15_
+		preTrace_F/data0_reg_reg_12_
+		preTrace_F/data0_reg_reg_19_
+		preTrace_F/data0_reg_reg_11_
+		preTrace_F/data0_reg_reg_13_
+		preTrace_F/data0_reg_reg_17_
+		preTrace_F/data0_reg_reg_0_
+		preTrace_F/data0_reg_reg_10_
+		preTrace_F/data0_reg_reg_9_
+		preTrace_F/data0_reg_reg_8_
+		preTrace_F/data0_reg_reg_7_
+		preTrace_F/data0_reg_reg_6_
+		preTrace_F/data0_reg_reg_20_
+		preTrace_F/data0_reg_reg_1_
+		preTrace_F/data0_reg_reg_2_
+		preTrace_F/data0_reg_reg_3_
+		preTrace_F/data0_reg_reg_4_
+		preTrace_F/data0_reg_reg_5_
+
+ Clock Gating Bank : fpadder/s1_to_s2_fifo/clk_gate_data1_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         fpadder/s1_to_s2_fifo/clk_gate_data1_reg_reg/CLK = CLK 
+         fpadder/s1_to_s2_fifo/clk_gate_data1_reg_reg/EN = d1di 
+
+     OUTPUTS :
+         fpadder/s1_to_s2_fifo/clk_gate_data1_reg_reg/ENCLK = net1783 
+
+     RELATED REGISTERS :
+		fpadder/s1_to_s2_fifo/data1_reg_reg_28_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_26_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_22_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_20_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_23_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_21_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_14_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_15_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_19_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_13_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_25_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_16_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_18_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_17_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_24_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_1_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_27_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_12_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_9_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_11_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_10_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_7_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_8_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_6_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_3_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_4_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_0_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_2_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_5_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_29_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_30_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_31_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_32_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_33_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_34_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_35_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_36_
+		fpadder/s1_to_s2_fifo/data1_reg_reg_37_
+
+ Clock Gating Bank : fpadder/s1_to_s2_fifo/clk_gate_data0_reg_reg
+-------------------
+
+     STYLE = latch, MIN = 3, MAX = unlimited, OBS_DEPTH = 5 
+
+     TEST INFORMATION : 
+
+     INPUTS :
+         fpadder/s1_to_s2_fifo/clk_gate_data0_reg_reg/CLK = CLK 
+         fpadder/s1_to_s2_fifo/clk_gate_data0_reg_reg/EN = n171 
+
+     OUTPUTS :
+         fpadder/s1_to_s2_fifo/clk_gate_data0_reg_reg/ENCLK = net1788 
+
+     RELATED REGISTERS :
+		fpadder/s1_to_s2_fifo/data0_reg_reg_29_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_0_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_1_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_2_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_3_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_4_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_5_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_6_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_7_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_8_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_9_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_10_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_11_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_12_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_13_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_14_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_15_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_16_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_17_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_18_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_19_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_20_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_21_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_22_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_23_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_24_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_25_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_26_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_27_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_28_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_30_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_31_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_32_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_33_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_34_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_35_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_36_
+		fpadder/s1_to_s2_fifo/data0_reg_reg_37_
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+                             Gated Register Report
+--------------------------------------------------------------------------------
+            Clock Gating Bank                    |         Gated Register 
+--------------------------------------------------------------------------------
+                                                 |
+ clk_gate_valOut_reg                             |       valOut_reg_0_
+                                                 |       valOut_reg_1_
+                                                 |       valOut_reg_2_
+                                                 |       valOut_reg_3_
+                                                 |       valOut_reg_4_
+                                                 |       valOut_reg_5_
+                                                 |       valOut_reg_6_
+                                                 |       valOut_reg_7_
+                                                 |       valOut_reg_8_
+                                                 |       valOut_reg_9_
+                                                 |       valOut_reg_10_
+                                                 |       valOut_reg_11_
+                                                 |       valOut_reg_12_
+                                                 |       valOut_reg_13_
+                                                 |       valOut_reg_14_
+                                                 |       valOut_reg_15_
+                                                 |       valOut_reg_16_
+                                                 |       valOut_reg_17_
+                                                 |       valOut_reg_18_
+                                                 |       valOut_reg_19_
+                                                 |       valOut_reg_20_
+                                                 |       valOut_reg_21_
+                                                 |       valOut_reg_22_
+                                                 |       valOut_reg_23_
+                                                 |       valOut_reg_24_
+                                                 |       valOut_reg_25_
+                                                 |       valOut_reg_26_
+                                                 |       valOut_reg_27_
+                                                 |       valOut_reg_28_
+                                                 |       valOut_reg_29_
+                                                 |       valOut_reg_30_
+                                                 |       valOut_reg_31_
+                                                 |
+ clk_gate_timeTotal_reg                          |       timeTotal_reg_0_
+                                                 |       timeTotal_reg_1_
+                                                 |       timeTotal_reg_2_
+                                                 |       timeTotal_reg_3_
+                                                 |       timeTotal_reg_4_
+                                                 |       timeTotal_reg_5_
+                                                 |       timeTotal_reg_6_
+                                                 |       timeTotal_reg_7_
+                                                 |       timeTotal_reg_8_
+                                                 |       timeTotal_reg_9_
+                                                 |
+ clk_gate_timeS_reg                              |       timeS_reg_0_
+                                                 |       timeS_reg_1_
+                                                 |       timeS_reg_2_
+                                                 |       timeS_reg_3_
+                                                 |       timeS_reg_4_
+                                                 |       timeS_reg_5_
+                                                 |       timeS_reg_6_
+                                                 |       timeS_reg_7_
+                                                 |       timeS_reg_8_
+                                                 |       timeS_reg_9_
+                                                 |
+ clk_gate_tempMaxj_reg                           |       tempMaxj_reg_3_
+                                                 |       tempMaxj_reg_11_
+                                                 |       tempMaxj_reg_5_
+                                                 |       tempMaxj_reg_4_
+                                                 |       tempMaxj_reg_13_
+                                                 |       tempMaxj_reg_1_
+                                                 |       tempMaxj_reg_9_
+                                                 |       tempMaxj_reg_0_
+                                                 |       tempMaxj_reg_2_
+                                                 |       tempMaxj_reg_6_
+                                                 |       tempMaxj_reg_7_
+                                                 |       tempMaxj_reg_8_
+                                                 |       tempMaxj_reg_10_
+                                                 |       tempMaxj_reg_12_
+                                                 |       tempMaxj_reg_14_
+                                                 |       tempMaxj_reg_15_
+                                                 |       tempMaxj_reg_16_
+                                                 |       tempMaxj_reg_17_
+                                                 |       tempMaxj_reg_18_
+                                                 |       tempMaxj_reg_19_
+                                                 |       tempMaxj_reg_20_
+                                                 |       tempMaxj_reg_21_
+                                                 |       tempMaxj_reg_22_
+                                                 |       tempMaxj_reg_23_
+                                                 |       tempMaxj_reg_24_
+                                                 |       tempMaxj_reg_25_
+                                                 |       tempMaxj_reg_26_
+                                                 |       tempMaxj_reg_27_
+                                                 |       tempMaxj_reg_28_
+                                                 |       tempMaxj_reg_29_
+                                                 |       tempMaxj_reg_30_
+                                                 |       tempMaxj_reg_31_
+                                                 |       tempMaxj_reg_32_
+                                                 |       tempMaxj_reg_33_
+                                                 |       tempMaxj_reg_34_
+                                                 |       tempMaxj_reg_35_
+                                                 |       tempMaxj_reg_36_
+                                                 |
+ clk_gate_tempMaxi_reg                           |       tempMaxi_reg_3_
+                                                 |       tempMaxi_reg_1_
+                                                 |       tempMaxi_reg_36_
+                                                 |       tempMaxi_reg_34_
+                                                 |       tempMaxi_reg_32_
+                                                 |       tempMaxi_reg_20_
+                                                 |       tempMaxi_reg_18_
+                                                 |       tempMaxi_reg_16_
+                                                 |       tempMaxi_reg_12_
+                                                 |       tempMaxi_reg_10_
+                                                 |       tempMaxi_reg_4_
+                                                 |       tempMaxi_reg_2_
+                                                 |       tempMaxi_reg_0_
+                                                 |       tempMaxi_reg_21_
+                                                 |       tempMaxi_reg_19_
+                                                 |       tempMaxi_reg_11_
+                                                 |       tempMaxi_reg_9_
+                                                 |       tempMaxi_reg_35_
+                                                 |       tempMaxi_reg_33_
+                                                 |       tempMaxi_reg_5_
+                                                 |       tempMaxi_reg_6_
+                                                 |       tempMaxi_reg_7_
+                                                 |       tempMaxi_reg_8_
+                                                 |       tempMaxi_reg_13_
+                                                 |       tempMaxi_reg_14_
+                                                 |       tempMaxi_reg_15_
+                                                 |       tempMaxi_reg_17_
+                                                 |       tempMaxi_reg_22_
+                                                 |       tempMaxi_reg_23_
+                                                 |       tempMaxi_reg_24_
+                                                 |       tempMaxi_reg_25_
+                                                 |       tempMaxi_reg_26_
+                                                 |       tempMaxi_reg_27_
+                                                 |       tempMaxi_reg_28_
+                                                 |       tempMaxi_reg_29_
+                                                 |       tempMaxi_reg_30_
+                                                 |       tempMaxi_reg_31_
+                                                 |
+ clk_gate_numStates_reg                          |       numStates_reg_0_
+                                                 |       numStates_reg_1_
+                                                 |       numStates_reg_2_
+                                                 |       numStates_reg_3_
+                                                 |       numStates_reg_4_
+                                                 |
+ clk_gate_jCounter_stage1_reg                    |       jCounter_stage1_reg_0_
+                                                 |       jCounter_stage1_reg_1_
+                                                 |       jCounter_stage1_reg_2_
+                                                 |       jCounter_stage1_reg_3_
+                                                 |       jCounter_stage1_reg_4_
+                                                 |
+ clk_gate_jCounter_Comp_reg                      |       jCounter_Comp_reg_0_
+                                                 |       jCounter_Comp_reg_1_
+                                                 |       jCounter_Comp_reg_2_
+                                                 |       jCounter_Comp_reg_3_
+                                                 |       jCounter_Comp_reg_4_
+                                                 |
+ clk_gate_iCounter_stage1_reg                    |       iCounter_stage1_reg_0_
+                                                 |       iCounter_stage1_reg_1_
+                                                 |       iCounter_stage1_reg_2_
+                                                 |       iCounter_stage1_reg_3_
+                                                 |       iCounter_stage1_reg_4_
+                                                 |
+ clk_gate_iCounter_Comp_reg                      |       iCounter_Comp_reg_0_
+                                                 |       iCounter_Comp_reg_1_
+                                                 |       iCounter_Comp_reg_2_
+                                                 |       iCounter_Comp_reg_3_
+                                                 |       iCounter_Comp_reg_4_
+                                                 |
+ clk_gate_countTime_reg                          |       countTime_reg_0_
+                                                 |       countTime_reg_8_
+                                                 |       countTime_reg_7_
+                                                 |       countTime_reg_6_
+                                                 |       countTime_reg_5_
+                                                 |       countTime_reg_4_
+                                                 |       countTime_reg_3_
+                                                 |       countTime_reg_2_
+                                                 |       countTime_reg_1_
+                                                 |       countTime_reg_9_
+                                                 |
+ clk_gate_backTrackReg_1_reg                     |       backTrackReg_1_reg_0_
+                                                 |       backTrackReg_1_reg_1_
+                                                 |       backTrackReg_1_reg_2_
+                                                 |       backTrackReg_1_reg_3_
+                                                 |       backTrackReg_1_reg_4_
+                                                 |
+ clk_gate_backTrackReg_0_reg                     |       backTrackReg_0_reg_0_
+                                                 |       backTrackReg_0_reg_1_
+                                                 |       backTrackReg_0_reg_2_
+                                                 |       backTrackReg_0_reg_3_
+                                                 |       backTrackReg_0_reg_4_
+                                                 |
+ inp_F/clk_gate_data1_reg_reg                    |       inp_F/data1_reg_reg_0_
+                                                 |       inp_F/data1_reg_reg_1_
+                                                 |       inp_F/data1_reg_reg_2_
+                                                 |       inp_F/data1_reg_reg_3_
+                                                 |       inp_F/data1_reg_reg_4_
+                                                 |       inp_F/data1_reg_reg_5_
+                                                 |       inp_F/data1_reg_reg_6_
+                                                 |       inp_F/data1_reg_reg_7_
+                                                 |       inp_F/data1_reg_reg_8_
+                                                 |
+ inp_F/clk_gate_data0_reg_reg                    |       inp_F/data0_reg_reg_0_
+                                                 |       inp_F/data0_reg_reg_1_
+                                                 |       inp_F/data0_reg_reg_2_
+                                                 |       inp_F/data0_reg_reg_3_
+                                                 |       inp_F/data0_reg_reg_4_
+                                                 |       inp_F/data0_reg_reg_5_
+                                                 |       inp_F/data0_reg_reg_6_
+                                                 |       inp_F/data0_reg_reg_7_
+                                                 |       inp_F/data0_reg_reg_8_
+                                                 |
+ metadata_fifo/clk_gate_data1_reg_reg            |       metadata_fifo/data1_reg_reg_3_
+                                                 |       metadata_fifo/data1_reg_reg_0_
+                                                 |       metadata_fifo/data1_reg_reg_1_
+                                                 |       metadata_fifo/data1_reg_reg_2_
+                                                 |
+ metadata_fifo/clk_gate_data0_reg_reg            |       metadata_fifo/data0_reg_reg_3_
+                                                 |       metadata_fifo/data0_reg_reg_2_
+                                                 |       metadata_fifo/data0_reg_reg_1_
+                                                 |       metadata_fifo/data0_reg_reg_0_
+                                                 |
+ preAdd_F/clk_gate_data1_reg_reg                 |       preAdd_F/data1_reg_reg_0_
+                                                 |       preAdd_F/data1_reg_reg_1_
+                                                 |       preAdd_F/data1_reg_reg_2_
+                                                 |       preAdd_F/data1_reg_reg_3_
+                                                 |       preAdd_F/data1_reg_reg_4_
+                                                 |       preAdd_F/data1_reg_reg_5_
+                                                 |       preAdd_F/data1_reg_reg_6_
+                                                 |       preAdd_F/data1_reg_reg_7_
+                                                 |       preAdd_F/data1_reg_reg_8_
+                                                 |       preAdd_F/data1_reg_reg_9_
+                                                 |       preAdd_F/data1_reg_reg_10_
+                                                 |       preAdd_F/data1_reg_reg_11_
+                                                 |       preAdd_F/data1_reg_reg_12_
+                                                 |       preAdd_F/data1_reg_reg_13_
+                                                 |       preAdd_F/data1_reg_reg_14_
+                                                 |       preAdd_F/data1_reg_reg_15_
+                                                 |       preAdd_F/data1_reg_reg_16_
+                                                 |       preAdd_F/data1_reg_reg_17_
+                                                 |       preAdd_F/data1_reg_reg_18_
+                                                 |       preAdd_F/data1_reg_reg_19_
+                                                 |       preAdd_F/data1_reg_reg_20_
+                                                 |       preAdd_F/data1_reg_reg_21_
+                                                 |       preAdd_F/data1_reg_reg_22_
+                                                 |       preAdd_F/data1_reg_reg_23_
+                                                 |       preAdd_F/data1_reg_reg_24_
+                                                 |       preAdd_F/data1_reg_reg_25_
+                                                 |       preAdd_F/data1_reg_reg_26_
+                                                 |       preAdd_F/data1_reg_reg_27_
+                                                 |       preAdd_F/data1_reg_reg_28_
+                                                 |       preAdd_F/data1_reg_reg_29_
+                                                 |       preAdd_F/data1_reg_reg_30_
+                                                 |       preAdd_F/data1_reg_reg_31_
+                                                 |       preAdd_F/data1_reg_reg_33_
+                                                 |       preAdd_F/data1_reg_reg_34_
+                                                 |       preAdd_F/data1_reg_reg_35_
+                                                 |       preAdd_F/data1_reg_reg_36_
+                                                 |       preAdd_F/data1_reg_reg_37_
+                                                 |       preAdd_F/data1_reg_reg_38_
+                                                 |       preAdd_F/data1_reg_reg_39_
+                                                 |       preAdd_F/data1_reg_reg_40_
+                                                 |       preAdd_F/data1_reg_reg_41_
+                                                 |       preAdd_F/data1_reg_reg_42_
+                                                 |       preAdd_F/data1_reg_reg_43_
+                                                 |       preAdd_F/data1_reg_reg_44_
+                                                 |       preAdd_F/data1_reg_reg_45_
+                                                 |       preAdd_F/data1_reg_reg_46_
+                                                 |       preAdd_F/data1_reg_reg_47_
+                                                 |       preAdd_F/data1_reg_reg_48_
+                                                 |       preAdd_F/data1_reg_reg_49_
+                                                 |       preAdd_F/data1_reg_reg_50_
+                                                 |       preAdd_F/data1_reg_reg_51_
+                                                 |       preAdd_F/data1_reg_reg_52_
+                                                 |       preAdd_F/data1_reg_reg_53_
+                                                 |       preAdd_F/data1_reg_reg_54_
+                                                 |       preAdd_F/data1_reg_reg_55_
+                                                 |       preAdd_F/data1_reg_reg_56_
+                                                 |       preAdd_F/data1_reg_reg_57_
+                                                 |       preAdd_F/data1_reg_reg_58_
+                                                 |       preAdd_F/data1_reg_reg_59_
+                                                 |       preAdd_F/data1_reg_reg_60_
+                                                 |       preAdd_F/data1_reg_reg_61_
+                                                 |       preAdd_F/data1_reg_reg_62_
+                                                 |       preAdd_F/data1_reg_reg_63_
+                                                 |       preAdd_F/data1_reg_reg_64_
+                                                 |       preAdd_F/data1_reg_reg_65_
+                                                 |       preAdd_F/data1_reg_reg_66_
+                                                 |       preAdd_F/data1_reg_reg_67_
+                                                 |
+ preAdd_F/clk_gate_data0_reg_reg                 |       preAdd_F/data0_reg_reg_56_
+                                                 |       preAdd_F/data0_reg_reg_26_
+                                                 |       preAdd_F/data0_reg_reg_59_
+                                                 |       preAdd_F/data0_reg_reg_57_
+                                                 |       preAdd_F/data0_reg_reg_24_
+                                                 |       preAdd_F/data0_reg_reg_23_
+                                                 |       preAdd_F/data0_reg_reg_25_
+                                                 |       preAdd_F/data0_reg_reg_0_
+                                                 |       preAdd_F/data0_reg_reg_1_
+                                                 |       preAdd_F/data0_reg_reg_2_
+                                                 |       preAdd_F/data0_reg_reg_3_
+                                                 |       preAdd_F/data0_reg_reg_4_
+                                                 |       preAdd_F/data0_reg_reg_5_
+                                                 |       preAdd_F/data0_reg_reg_6_
+                                                 |       preAdd_F/data0_reg_reg_7_
+                                                 |       preAdd_F/data0_reg_reg_8_
+                                                 |       preAdd_F/data0_reg_reg_9_
+                                                 |       preAdd_F/data0_reg_reg_10_
+                                                 |       preAdd_F/data0_reg_reg_11_
+                                                 |       preAdd_F/data0_reg_reg_12_
+                                                 |       preAdd_F/data0_reg_reg_13_
+                                                 |       preAdd_F/data0_reg_reg_14_
+                                                 |       preAdd_F/data0_reg_reg_15_
+                                                 |       preAdd_F/data0_reg_reg_16_
+                                                 |       preAdd_F/data0_reg_reg_17_
+                                                 |       preAdd_F/data0_reg_reg_18_
+                                                 |       preAdd_F/data0_reg_reg_19_
+                                                 |       preAdd_F/data0_reg_reg_20_
+                                                 |       preAdd_F/data0_reg_reg_21_
+                                                 |       preAdd_F/data0_reg_reg_22_
+                                                 |       preAdd_F/data0_reg_reg_27_
+                                                 |       preAdd_F/data0_reg_reg_28_
+                                                 |       preAdd_F/data0_reg_reg_29_
+                                                 |       preAdd_F/data0_reg_reg_30_
+                                                 |       preAdd_F/data0_reg_reg_31_
+                                                 |       preAdd_F/data0_reg_reg_33_
+                                                 |       preAdd_F/data0_reg_reg_34_
+                                                 |       preAdd_F/data0_reg_reg_35_
+                                                 |       preAdd_F/data0_reg_reg_36_
+                                                 |       preAdd_F/data0_reg_reg_37_
+                                                 |       preAdd_F/data0_reg_reg_38_
+                                                 |       preAdd_F/data0_reg_reg_39_
+                                                 |       preAdd_F/data0_reg_reg_40_
+                                                 |       preAdd_F/data0_reg_reg_41_
+                                                 |       preAdd_F/data0_reg_reg_42_
+                                                 |       preAdd_F/data0_reg_reg_43_
+                                                 |       preAdd_F/data0_reg_reg_44_
+                                                 |       preAdd_F/data0_reg_reg_45_
+                                                 |       preAdd_F/data0_reg_reg_46_
+                                                 |       preAdd_F/data0_reg_reg_47_
+                                                 |       preAdd_F/data0_reg_reg_48_
+                                                 |       preAdd_F/data0_reg_reg_49_
+                                                 |       preAdd_F/data0_reg_reg_50_
+                                                 |       preAdd_F/data0_reg_reg_51_
+                                                 |       preAdd_F/data0_reg_reg_52_
+                                                 |       preAdd_F/data0_reg_reg_53_
+                                                 |       preAdd_F/data0_reg_reg_54_
+                                                 |       preAdd_F/data0_reg_reg_55_
+                                                 |       preAdd_F/data0_reg_reg_58_
+                                                 |       preAdd_F/data0_reg_reg_60_
+                                                 |       preAdd_F/data0_reg_reg_61_
+                                                 |       preAdd_F/data0_reg_reg_62_
+                                                 |       preAdd_F/data0_reg_reg_63_
+                                                 |       preAdd_F/data0_reg_reg_64_
+                                                 |       preAdd_F/data0_reg_reg_65_
+                                                 |       preAdd_F/data0_reg_reg_66_
+                                                 |       preAdd_F/data0_reg_reg_67_
+                                                 |
+ preCom_F/clk_gate_data1_reg_reg                 |       preCom_F/data1_reg_reg_31_
+                                                 |       preCom_F/data1_reg_reg_35_
+                                                 |       preCom_F/data1_reg_reg_1_
+                                                 |       preCom_F/data1_reg_reg_2_
+                                                 |       preCom_F/data1_reg_reg_3_
+                                                 |       preCom_F/data1_reg_reg_4_
+                                                 |       preCom_F/data1_reg_reg_5_
+                                                 |       preCom_F/data1_reg_reg_6_
+                                                 |       preCom_F/data1_reg_reg_7_
+                                                 |       preCom_F/data1_reg_reg_8_
+                                                 |       preCom_F/data1_reg_reg_9_
+                                                 |       preCom_F/data1_reg_reg_10_
+                                                 |       preCom_F/data1_reg_reg_11_
+                                                 |       preCom_F/data1_reg_reg_12_
+                                                 |       preCom_F/data1_reg_reg_13_
+                                                 |       preCom_F/data1_reg_reg_14_
+                                                 |       preCom_F/data1_reg_reg_15_
+                                                 |       preCom_F/data1_reg_reg_16_
+                                                 |       preCom_F/data1_reg_reg_17_
+                                                 |       preCom_F/data1_reg_reg_18_
+                                                 |       preCom_F/data1_reg_reg_19_
+                                                 |       preCom_F/data1_reg_reg_20_
+                                                 |       preCom_F/data1_reg_reg_21_
+                                                 |       preCom_F/data1_reg_reg_22_
+                                                 |       preCom_F/data1_reg_reg_23_
+                                                 |       preCom_F/data1_reg_reg_25_
+                                                 |       preCom_F/data1_reg_reg_27_
+                                                 |       preCom_F/data1_reg_reg_28_
+                                                 |       preCom_F/data1_reg_reg_29_
+                                                 |       preCom_F/data1_reg_reg_0_
+                                                 |       preCom_F/data1_reg_reg_24_
+                                                 |       preCom_F/data1_reg_reg_26_
+                                                 |       preCom_F/data1_reg_reg_30_
+                                                 |       preCom_F/data1_reg_reg_32_
+                                                 |       preCom_F/data1_reg_reg_33_
+                                                 |       preCom_F/data1_reg_reg_34_
+                                                 |
+ preCom_F/clk_gate_data0_reg_reg                 |       preCom_F/data0_reg_reg_5_
+                                                 |       preCom_F/data0_reg_reg_0_
+                                                 |       preCom_F/data0_reg_reg_1_
+                                                 |       preCom_F/data0_reg_reg_2_
+                                                 |       preCom_F/data0_reg_reg_3_
+                                                 |       preCom_F/data0_reg_reg_4_
+                                                 |       preCom_F/data0_reg_reg_6_
+                                                 |       preCom_F/data0_reg_reg_7_
+                                                 |       preCom_F/data0_reg_reg_8_
+                                                 |       preCom_F/data0_reg_reg_9_
+                                                 |       preCom_F/data0_reg_reg_10_
+                                                 |       preCom_F/data0_reg_reg_11_
+                                                 |       preCom_F/data0_reg_reg_12_
+                                                 |       preCom_F/data0_reg_reg_13_
+                                                 |       preCom_F/data0_reg_reg_14_
+                                                 |       preCom_F/data0_reg_reg_15_
+                                                 |       preCom_F/data0_reg_reg_16_
+                                                 |       preCom_F/data0_reg_reg_17_
+                                                 |       preCom_F/data0_reg_reg_18_
+                                                 |       preCom_F/data0_reg_reg_19_
+                                                 |       preCom_F/data0_reg_reg_20_
+                                                 |       preCom_F/data0_reg_reg_21_
+                                                 |       preCom_F/data0_reg_reg_22_
+                                                 |       preCom_F/data0_reg_reg_23_
+                                                 |       preCom_F/data0_reg_reg_24_
+                                                 |       preCom_F/data0_reg_reg_25_
+                                                 |       preCom_F/data0_reg_reg_26_
+                                                 |       preCom_F/data0_reg_reg_27_
+                                                 |       preCom_F/data0_reg_reg_28_
+                                                 |       preCom_F/data0_reg_reg_29_
+                                                 |       preCom_F/data0_reg_reg_30_
+                                                 |       preCom_F/data0_reg_reg_31_
+                                                 |       preCom_F/data0_reg_reg_32_
+                                                 |       preCom_F/data0_reg_reg_33_
+                                                 |       preCom_F/data0_reg_reg_34_
+                                                 |       preCom_F/data0_reg_reg_35_
+                                                 |
+ preMax_F/clk_gate_data1_reg_reg                 |       preMax_F/data1_reg_reg_31_
+                                                 |       preMax_F/data1_reg_reg_29_
+                                                 |       preMax_F/data1_reg_reg_21_
+                                                 |       preMax_F/data1_reg_reg_19_
+                                                 |       preMax_F/data1_reg_reg_17_
+                                                 |       preMax_F/data1_reg_reg_13_
+                                                 |       preMax_F/data1_reg_reg_11_
+                                                 |       preMax_F/data1_reg_reg_25_
+                                                 |       preMax_F/data1_reg_reg_1_
+                                                 |       preMax_F/data1_reg_reg_3_
+                                                 |       preMax_F/data1_reg_reg_15_
+                                                 |       preMax_F/data1_reg_reg_9_
+                                                 |       preMax_F/data1_reg_reg_5_
+                                                 |       preMax_F/data1_reg_reg_27_
+                                                 |       preMax_F/data1_reg_reg_23_
+                                                 |       preMax_F/data1_reg_reg_7_
+                                                 |       preMax_F/data1_reg_reg_0_
+                                                 |       preMax_F/data1_reg_reg_2_
+                                                 |       preMax_F/data1_reg_reg_4_
+                                                 |       preMax_F/data1_reg_reg_6_
+                                                 |       preMax_F/data1_reg_reg_8_
+                                                 |       preMax_F/data1_reg_reg_10_
+                                                 |       preMax_F/data1_reg_reg_12_
+                                                 |       preMax_F/data1_reg_reg_14_
+                                                 |       preMax_F/data1_reg_reg_16_
+                                                 |       preMax_F/data1_reg_reg_18_
+                                                 |       preMax_F/data1_reg_reg_20_
+                                                 |       preMax_F/data1_reg_reg_22_
+                                                 |       preMax_F/data1_reg_reg_24_
+                                                 |       preMax_F/data1_reg_reg_26_
+                                                 |       preMax_F/data1_reg_reg_28_
+                                                 |       preMax_F/data1_reg_reg_30_
+                                                 |       preMax_F/data1_reg_reg_32_
+                                                 |       preMax_F/data1_reg_reg_33_
+                                                 |       preMax_F/data1_reg_reg_34_
+                                                 |       preMax_F/data1_reg_reg_35_
+                                                 |       preMax_F/data1_reg_reg_36_
+                                                 |       preMax_F/data1_reg_reg_37_
+                                                 |
+ preMax_F/clk_gate_data0_reg_reg                 |       preMax_F/data0_reg_reg_14_
+                                                 |       preMax_F/data0_reg_reg_4_
+                                                 |       preMax_F/data0_reg_reg_10_
+                                                 |       preMax_F/data0_reg_reg_2_
+                                                 |       preMax_F/data0_reg_reg_8_
+                                                 |       preMax_F/data0_reg_reg_12_
+                                                 |       preMax_F/data0_reg_reg_20_
+                                                 |       preMax_F/data0_reg_reg_16_
+                                                 |       preMax_F/data0_reg_reg_18_
+                                                 |       preMax_F/data0_reg_reg_31_
+                                                 |       preMax_F/data0_reg_reg_29_
+                                                 |       preMax_F/data0_reg_reg_21_
+                                                 |       preMax_F/data0_reg_reg_19_
+                                                 |       preMax_F/data0_reg_reg_17_
+                                                 |       preMax_F/data0_reg_reg_13_
+                                                 |       preMax_F/data0_reg_reg_11_
+                                                 |       preMax_F/data0_reg_reg_25_
+                                                 |       preMax_F/data0_reg_reg_1_
+                                                 |       preMax_F/data0_reg_reg_3_
+                                                 |       preMax_F/data0_reg_reg_15_
+                                                 |       preMax_F/data0_reg_reg_9_
+                                                 |       preMax_F/data0_reg_reg_5_
+                                                 |       preMax_F/data0_reg_reg_27_
+                                                 |       preMax_F/data0_reg_reg_23_
+                                                 |       preMax_F/data0_reg_reg_7_
+                                                 |       preMax_F/data0_reg_reg_26_
+                                                 |       preMax_F/data0_reg_reg_28_
+                                                 |       preMax_F/data0_reg_reg_24_
+                                                 |       preMax_F/data0_reg_reg_30_
+                                                 |       preMax_F/data0_reg_reg_22_
+                                                 |       preMax_F/data0_reg_reg_6_
+                                                 |       preMax_F/data0_reg_reg_0_
+                                                 |       preMax_F/data0_reg_reg_32_
+                                                 |       preMax_F/data0_reg_reg_33_
+                                                 |       preMax_F/data0_reg_reg_34_
+                                                 |       preMax_F/data0_reg_reg_35_
+                                                 |       preMax_F/data0_reg_reg_36_
+                                                 |       preMax_F/data0_reg_reg_37_
+                                                 |
+ preMem_F/clk_gate_data1_reg_reg                 |       preMem_F/data1_reg_reg_0_
+                                                 |       preMem_F/data1_reg_reg_1_
+                                                 |       preMem_F/data1_reg_reg_2_
+                                                 |       preMem_F/data1_reg_reg_3_
+                                                 |       preMem_F/data1_reg_reg_4_
+                                                 |       preMem_F/data1_reg_reg_5_
+                                                 |       preMem_F/data1_reg_reg_6_
+                                                 |       preMem_F/data1_reg_reg_7_
+                                                 |       preMem_F/data1_reg_reg_8_
+                                                 |       preMem_F/data1_reg_reg_9_
+                                                 |       preMem_F/data1_reg_reg_10_
+                                                 |       preMem_F/data1_reg_reg_11_
+                                                 |       preMem_F/data1_reg_reg_12_
+                                                 |       preMem_F/data1_reg_reg_13_
+                                                 |       preMem_F/data1_reg_reg_14_
+                                                 |       preMem_F/data1_reg_reg_15_
+                                                 |       preMem_F/data1_reg_reg_16_
+                                                 |       preMem_F/data1_reg_reg_17_
+                                                 |       preMem_F/data1_reg_reg_18_
+                                                 |       preMem_F/data1_reg_reg_19_
+                                                 |       preMem_F/data1_reg_reg_20_
+                                                 |       preMem_F/data1_reg_reg_21_
+                                                 |       preMem_F/data1_reg_reg_22_
+                                                 |
+ preMem_F/clk_gate_data0_reg_reg                 |       preMem_F/data0_reg_reg_22_
+                                                 |       preMem_F/data0_reg_reg_21_
+                                                 |       preMem_F/data0_reg_reg_20_
+                                                 |       preMem_F/data0_reg_reg_0_
+                                                 |       preMem_F/data0_reg_reg_19_
+                                                 |       preMem_F/data0_reg_reg_18_
+                                                 |       preMem_F/data0_reg_reg_17_
+                                                 |       preMem_F/data0_reg_reg_16_
+                                                 |       preMem_F/data0_reg_reg_15_
+                                                 |       preMem_F/data0_reg_reg_14_
+                                                 |       preMem_F/data0_reg_reg_13_
+                                                 |       preMem_F/data0_reg_reg_12_
+                                                 |       preMem_F/data0_reg_reg_11_
+                                                 |       preMem_F/data0_reg_reg_10_
+                                                 |       preMem_F/data0_reg_reg_9_
+                                                 |       preMem_F/data0_reg_reg_8_
+                                                 |       preMem_F/data0_reg_reg_7_
+                                                 |       preMem_F/data0_reg_reg_6_
+                                                 |       preMem_F/data0_reg_reg_5_
+                                                 |       preMem_F/data0_reg_reg_4_
+                                                 |       preMem_F/data0_reg_reg_3_
+                                                 |       preMem_F/data0_reg_reg_2_
+                                                 |       preMem_F/data0_reg_reg_1_
+                                                 |
+ preTrace_F/clk_gate_data1_reg_reg               |       preTrace_F/data1_reg_reg_0_
+                                                 |       preTrace_F/data1_reg_reg_20_
+                                                 |       preTrace_F/data1_reg_reg_1_
+                                                 |       preTrace_F/data1_reg_reg_2_
+                                                 |       preTrace_F/data1_reg_reg_3_
+                                                 |       preTrace_F/data1_reg_reg_4_
+                                                 |       preTrace_F/data1_reg_reg_5_
+                                                 |       preTrace_F/data1_reg_reg_6_
+                                                 |       preTrace_F/data1_reg_reg_7_
+                                                 |       preTrace_F/data1_reg_reg_8_
+                                                 |       preTrace_F/data1_reg_reg_9_
+                                                 |       preTrace_F/data1_reg_reg_10_
+                                                 |       preTrace_F/data1_reg_reg_11_
+                                                 |       preTrace_F/data1_reg_reg_12_
+                                                 |       preTrace_F/data1_reg_reg_13_
+                                                 |       preTrace_F/data1_reg_reg_14_
+                                                 |       preTrace_F/data1_reg_reg_15_
+                                                 |       preTrace_F/data1_reg_reg_16_
+                                                 |       preTrace_F/data1_reg_reg_17_
+                                                 |       preTrace_F/data1_reg_reg_18_
+                                                 |       preTrace_F/data1_reg_reg_19_
+                                                 |       preTrace_F/data1_reg_reg_21_
+                                                 |
+ preTrace_F/clk_gate_data0_reg_reg               |       preTrace_F/data0_reg_reg_21_
+                                                 |       preTrace_F/data0_reg_reg_18_
+                                                 |       preTrace_F/data0_reg_reg_16_
+                                                 |       preTrace_F/data0_reg_reg_14_
+                                                 |       preTrace_F/data0_reg_reg_15_
+                                                 |       preTrace_F/data0_reg_reg_12_
+                                                 |       preTrace_F/data0_reg_reg_19_
+                                                 |       preTrace_F/data0_reg_reg_11_
+                                                 |       preTrace_F/data0_reg_reg_13_
+                                                 |       preTrace_F/data0_reg_reg_17_
+                                                 |       preTrace_F/data0_reg_reg_0_
+                                                 |       preTrace_F/data0_reg_reg_10_
+                                                 |       preTrace_F/data0_reg_reg_9_
+                                                 |       preTrace_F/data0_reg_reg_8_
+                                                 |       preTrace_F/data0_reg_reg_7_
+                                                 |       preTrace_F/data0_reg_reg_6_
+                                                 |       preTrace_F/data0_reg_reg_20_
+                                                 |       preTrace_F/data0_reg_reg_1_
+                                                 |       preTrace_F/data0_reg_reg_2_
+                                                 |       preTrace_F/data0_reg_reg_3_
+                                                 |       preTrace_F/data0_reg_reg_4_
+                                                 |       preTrace_F/data0_reg_reg_5_
+                                                 |
+ fpadder/s1_to_s2_fifo/clk_gate_data1_reg_reg    |       fpadder/s1_to_s2_fifo/data1_reg_reg_28_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_26_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_22_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_20_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_23_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_21_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_14_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_15_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_19_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_13_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_25_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_16_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_18_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_17_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_24_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_1_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_27_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_12_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_9_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_11_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_10_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_7_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_8_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_6_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_3_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_4_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_0_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_2_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_5_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_29_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_30_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_31_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_32_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_33_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_34_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_35_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_36_
+                                                 |       fpadder/s1_to_s2_fifo/data1_reg_reg_37_
+                                                 |
+ fpadder/s1_to_s2_fifo/clk_gate_data0_reg_reg    |       fpadder/s1_to_s2_fifo/data0_reg_reg_29_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_0_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_1_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_2_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_3_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_4_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_5_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_6_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_7_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_8_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_9_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_10_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_11_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_12_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_13_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_14_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_15_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_16_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_17_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_18_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_19_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_20_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_21_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_22_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_23_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_24_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_25_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_26_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_27_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_28_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_30_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_31_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_32_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_33_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_34_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_35_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_36_
+                                                 |       fpadder/s1_to_s2_fifo/data0_reg_reg_37_
+                                                 |
+--------------------------------------------------------------------------------
+
+
+                             Clock Gating Summary
+          ------------------------------------------------------------
+          |    Number of Clock gating elements    |       29         |
+          |                                       |                  |
+          |    Number of Gated registers          |   645 (91.10%)   |
+          |                                       |                  |
+          |    Number of Ungated registers        |    63 (8.90%)    |
+          |                                       |                  |
+          |    Total number of registers          |      708         |
+          ------------------------------------------------------------
+
+
+
+                             Clock Gating Report by Origin
+          +-------------------------------------------------+------------------+
+          |                                                 |    Actual (%)    |
+          |                                                 |    Count         |
+          +-------------------------------------------------+------------------+
+          |  Number of tool-inserted clock gating elements  |    29 (100.00%)  |
+          |                                                 |                  |
+          |  Number of pre-existing clock gating elements   |     0 (0.00%)    |
+          |                                                 |                  |
+          |  Number of gated registers                      |   645 (91.10%)   |
+          |                                                 |                  |
+          |  Number of tool-inserted gated registers        |   645 (91.10%)   |
+          |                                                 |                  |
+          |  Number of pre-existing gated registers         |     0 (0.00%)    |
+          |                                                 |                  |
+          |  Number of ungated registers                    |    63 (8.90%)    |
+          |                                                 |                  |
+          |  Number of registers                            |      708         |
+          +-------------------------------------------------+------------------+
+
+
+
+1

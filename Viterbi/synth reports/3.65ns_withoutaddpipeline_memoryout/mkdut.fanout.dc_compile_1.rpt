@@ -1,0 +1,69 @@
+ 
+****************************************
+Report : net fanout
+        -threshold 50
+Design : mkdut
+Version: U-2022.12
+Date   : Mon Nov 10 10:25:00 2025
+****************************************
+
+
+Operating Conditions: ss0p75v25c   Library: saed32lvt_ss0p75v25c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+mkdut                  16000             saed32lvt_ss0p75v25c
+FIFO2_00000009_1       8000              saed32lvt_ss0p75v25c
+FIFO2_00000044_1       8000              saed32lvt_ss0p75v25c
+FIFO2_00000024_1       8000              saed32lvt_ss0p75v25c
+FIFO2_00000026_1       8000              saed32lvt_ss0p75v25c
+FIFO2_00000017_1       8000              saed32lvt_ss0p75v25c
+FIFO2_00000016_1       8000              saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_12 ForQA      saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_11 ForQA      saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_10 ForQA      saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_9 ForQA       saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_8 ForQA       saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_7 ForQA       saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_6 ForQA       saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_5 ForQA       saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_4 ForQA       saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_3 ForQA       saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_2 ForQA       saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_1 ForQA       saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_0 ForQA       saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000009_1_1 ForQA saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000009_1_0 ForQA saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000044_1_1 ForQA saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000044_1_0 ForQA saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000024_1_1 ForQA saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000024_1_0 ForQA saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000026_1_1 ForQA saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000026_1_0 ForQA saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000017_1_1 ForQA saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000017_1_0 ForQA saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000016_1_1 ForQA saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000016_1_0 ForQA saed32lvt_ss0p75v25c
+
+
+Attributes:
+   dr - drc disabled
+    c - annotated capacitance
+    d - dont_touch
+    i - ideal_net
+    I - ideal_network
+    p - includes pin load
+    r - annotated resistance
+    h - high fanout
+
+Net                 Fanout   Attributes   Capacitance   Driver
+--------------------------------------------------------------------------------
+CLK                     74   dr              42.17      CLK
+RST_N                   80                   39.41      RST_N
+preAdd_F/net2102        66   dr              40.86      preAdd_F/clk_gate_data1_reg_reg/main_gate/Y
+preAdd_F/net2107        66   dr              40.86      preAdd_F/clk_gate_data0_reg_reg/main_gate/Y
+preAdd_F/n7             56                   30.66      preAdd_F/U10/Y
+preAdd_F/n8             66                   31.28      preAdd_F/U11/Y
+preAdd_F/n34            68                   32.88      preAdd_F/U13/Y
+1

@@ -1,0 +1,271 @@
+ 
+****************************************
+Report : resources
+Design : mkdut
+Version: U-2022.12
+Date   : Tue Nov 11 11:59:56 2025
+****************************************
+
+
+Resource Report for this hierarchy in file
+        /scratch/EE22B015/CS6230/new/synth/rtl/mkdut.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| add_x_4        | DW01_inc       | width=10   | add_799 (mkdut.v:799)      |
+| eq_x_20        | DW_cmp         | width=10   | eq_1283 (mkdut.v:1283)     |
+| eq_x_22        | DW_cmp         | width=5    | eq_1290 (mkdut.v:1290)     |
+| eq_x_23        | DW_cmp         | width=5    | eq_1291 (mkdut.v:1291)     |
+| eq_x_25        | DW_cmp         | width=5    | eq_1298 (mkdut.v:1298)     |
+| eq_x_26        | DW_cmp         | width=5    | eq_1299 (mkdut.v:1299)     |
+| lt_x_28        | DW_cmp         | width=32   | lt_1302 (mkdut.v:1302)     |
+| lt_x_29        | DW_cmp         | width=32   | lt_1304 (mkdut.v:1304)     |
+| sub_x_30       | DW01_dec       | width=10   | sub_1306 (mkdut.v:1306)    |
+| DP_OP_151J1_122_654             |            |                            |
+|                | DP_OP_151J1_122_654 |       |                            |
+| DP_OP_152J1_123_654             |            |                            |
+|                | DP_OP_152J1_123_654 |       |                            |
+| DP_OP_153J1_124_654             |            |                            |
+|                | DP_OP_153J1_124_654 |       |                            |
+| DP_OP_154J1_125_654             |            |                            |
+|                | DP_OP_154J1_125_654 |       |                            |
+| DP_OP_156_129_5322              |            |                            |
+|                | DP_OP_156_129_5322 |        |                            |
+=============================================================================
+
+Datapath Report for DP_OP_151J1_122_654
+==============================================================================
+| Cell                 | Contained Operations                                |
+==============================================================================
+| DP_OP_151J1_122_654  | mult_add_1309_aco (mkdut.v:1309)                    |
+|                      | add_1309_aco (mkdut.v:1309)                         |
+==============================================================================
+
+==============================================================================
+|       |      | Data     |       |                                          |
+| Var   | Type | Class    | Width | Expression                               |
+==============================================================================
+| I1    | PI   | Unsigned | 5     |                                          |
+| I2    | PI   | Unsigned | 1     |                                          |
+| T85   | IFO  | Unsigned | 5     | I1 * I2 (mkdut.v:1309)                   |
+| O1    | PO   | Unsigned | 5     | T85 + $unsigned(1'b1) (mkdut.v:1309)     |
+==============================================================================
+
+Datapath Report for DP_OP_152J1_123_654
+==============================================================================
+| Cell                 | Contained Operations                                |
+==============================================================================
+| DP_OP_152J1_123_654  | mult_add_1312_aco (mkdut.v:1312)                    |
+|                      | add_1312_aco (mkdut.v:1312)                         |
+==============================================================================
+
+==============================================================================
+|       |      | Data     |       |                                          |
+| Var   | Type | Class    | Width | Expression                               |
+==============================================================================
+| I1    | PI   | Unsigned | 5     |                                          |
+| I2    | PI   | Unsigned | 1     |                                          |
+| T88   | IFO  | Unsigned | 5     | I1 * I2 (mkdut.v:1312)                   |
+| O1    | PO   | Unsigned | 5     | T88 + $unsigned(1'b1) (mkdut.v:1312)     |
+==============================================================================
+
+Datapath Report for DP_OP_153J1_124_654
+==============================================================================
+| Cell                 | Contained Operations                                |
+==============================================================================
+| DP_OP_153J1_124_654  | mult_add_1310_aco (mkdut.v:1310)                    |
+|                      | add_1310_aco (mkdut.v:1310)                         |
+==============================================================================
+
+==============================================================================
+|       |      | Data     |       |                                          |
+| Var   | Type | Class    | Width | Expression                               |
+==============================================================================
+| I1    | PI   | Unsigned | 5     |                                          |
+| I2    | PI   | Unsigned | 1     |                                          |
+| T87   | IFO  | Unsigned | 5     | I1 * I2 (mkdut.v:1310)                   |
+| O1    | PO   | Unsigned | 5     | T87 + $unsigned(1'b1) (mkdut.v:1310)     |
+==============================================================================
+
+Datapath Report for DP_OP_154J1_125_654
+==============================================================================
+| Cell                 | Contained Operations                                |
+==============================================================================
+| DP_OP_154J1_125_654  | mult_add_1311_aco (mkdut.v:1311)                    |
+|                      | add_1311_aco (mkdut.v:1311)                         |
+==============================================================================
+
+==============================================================================
+|       |      | Data     |       |                                          |
+| Var   | Type | Class    | Width | Expression                               |
+==============================================================================
+| I1    | PI   | Unsigned | 5     |                                          |
+| I2    | PI   | Unsigned | 1     |                                          |
+| T86   | IFO  | Unsigned | 5     | I1 * I2 (mkdut.v:1311)                   |
+| O1    | PO   | Unsigned | 5     | T86 + $unsigned(1'b1) (mkdut.v:1311)     |
+==============================================================================
+
+Datapath Report for DP_OP_156_129_5322
+==============================================================================
+| Cell                 | Contained Operations                                |
+==============================================================================
+| DP_OP_156_129_5322   | sub_732 (mkdut.v:732) add_733 (mkdut.v:733)         |
+==============================================================================
+
+==============================================================================
+|       |      | Data     |       |                                          |
+| Var   | Type | Class    | Width | Expression                               |
+==============================================================================
+| I1    | PI   | Signed   | 10    |                                          |
+| I2    | PI   | Unsigned | 1     |                                          |
+| O1    | PO   | Signed   | 10    | addsub(I1,1,I2) ( mkdut.v:732 mkdut.v:733 ) |
+==============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| add_x_4            | DW01_inc         | apparch (area)     |                |
+| eq_x_20            | DW_cmp           | apparch (area)     |                |
+| eq_x_22            | DW_cmp           | apparch (area)     |                |
+| eq_x_23            | DW_cmp           | apparch (area)     |                |
+| eq_x_25            | DW_cmp           | apparch (area)     |                |
+| eq_x_26            | DW_cmp           | apparch (area)     |                |
+| lt_x_28            | DW_cmp           | apparch (area)     |                |
+| lt_x_29            | DW_cmp           | apparch (area)     |                |
+| sub_x_30           | DW01_dec         | apparch (area)     |                |
+| DP_OP_151J1_122_654                   |                    |                |
+|                    | DP_OP_151J1_122_654 | str (area)      |                |
+|                    |                  | mult_arch: benc_radix4              |
+| DP_OP_152J1_123_654                   |                    |                |
+|                    | DP_OP_152J1_123_654 | str (area)      |                |
+|                    |                  | mult_arch: benc_radix4              |
+| DP_OP_153J1_124_654                   |                    |                |
+|                    | DP_OP_153J1_124_654 | str (area)      |                |
+|                    |                  | mult_arch: benc_radix4              |
+| DP_OP_154J1_125_654                   |                    |                |
+|                    | DP_OP_154J1_125_654 | str (area)      |                |
+|                    |                  | mult_arch: benc_radix4              |
+| DP_OP_156_129_5322 | DP_OP_156_129_5322 | str (area,speed) |                |
+===============================================================================
+
+
+No resource sharing information to report.
+ 
+****************************************
+Design : FIFO2_00000016_1
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : FIFO2_00000017_1
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : FIFO2_00000026_1_1
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : FIFO2_00000024_1
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : FIFO2_00000044_1
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : FIFO2_00000004_1
+****************************************
+
+No implementations to report
+
+No resource sharing information to report.
+ 
+****************************************
+Design : FIFO2_00000009_1
+****************************************
+
+No implementations to report
+ 
+****************************************
+Design : mkFPadder32
+****************************************
+
+Resource Report for this hierarchy in file
+        /scratch/EE22B015/CS6230/new/synth/rtl/mkFPAdder32.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| add_x_6        | DW01_add       | width=25   | add_338 (mkFPAdder32.v:338) |
+| ashr_9         | DW_rightsh     | A_width=27 | srl_350 (mkFPAdder32.v:350) |
+                |                | SH_width=8 |                            |
+| ashr_10        | DW_rightsh     | A_width=27 | srl_352 (mkFPAdder32.v:352) |
+                |                | SH_width=8 |                            |
+| sub_x_14       | DW01_sub       | width=8    | sub_374 (mkFPAdder32.v:374) |
+| sub_x_15       | DW01_sub       | width=8    | sub_375 (mkFPAdder32.v:375) |
+| add_x_16       | DW01_inc       | width=8    | add_376 (mkFPAdder32.v:376) |
+| add_x_17       | DW01_inc       | width=8    | add_383 (mkFPAdder32.v:383) |
+| lte_x_18       | DW_cmp         | width=8    | lte_384 (mkFPAdder32.v:384) |
+| ash_22         | DW_leftsh      | A_width=27 | sll_454 (mkFPAdder32.v:454) |
+                |                | SH_width=8 |                            |
+| sub_x_23       | DW01_dec       | width=27   | sub_454 (mkFPAdder32.v:454) |
+| ash_24         | DW_leftsh      | A_width=27 | sll_455 (mkFPAdder32.v:455) |
+                |                | SH_width=8 |                            |
+| sub_x_25       | DW01_dec       | width=27   | sub_455 (mkFPAdder32.v:455) |
+=============================================================================
+
+
+Datapath Extraction Report
+
+Information: Operator associated with resources 'add_383 (mkFPAdder32.v:383)' in design 'mkFPadder32' breaks the datapath extraction because there is leakage due to truncation on its fanout to operator of resources 'C723 (mkFPAdder32.v:354)'.  (HDL-120)
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| add_x_6            | DW01_add         | pparch (area,speed)                 |
+| ashr_9             | DW_rightsh       | astr (area)        |                |
+| ashr_10            | DW_rightsh       | astr (area)        |                |
+| sub_x_14           | DW01_sub         | pparch (area,speed)                 |
+| sub_x_15           | DW01_sub         | pparch (area,speed)                 |
+| add_x_16           | DW01_inc         | apparch (area)     |                |
+| add_x_17           | DW01_inc         | apparch (area)     |                |
+| lte_x_18           | DW_cmp           | apparch (area)     |                |
+| ash_22             | DW_leftsh        | astr (area)        |                |
+| sub_x_23           | DW01_dec         | pparch (area,speed)                 |
+| ash_24             | DW_leftsh        | astr (area)        |                |
+| sub_x_25           | DW01_dec         | pparch (area,speed)                 |
+===============================================================================
+
+
+No resource sharing information to report.
+ 
+****************************************
+Design : FIFO2_00000026_1_0
+****************************************
+
+No implementations to report
+1

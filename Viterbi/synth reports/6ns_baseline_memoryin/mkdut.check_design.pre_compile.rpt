@@ -1,0 +1,127 @@
+ 
+****************************************
+check_design summary:
+Version:     U-2022.12
+Date:        Thu Nov  6 09:37:38 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     91
+    Unconnected ports (LINT-28)                                    88
+    Shorted outputs (LINT-31)                                       1
+    Constant outputs (LINT-52)                                      2
+
+Cells                                                               6
+    Connected to power or ground (LINT-32)                          6
+
+Nets                                                                2
+    Unloaded nets (LINT-2)                                          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'mkdut', net 'preAdd_F_D_OUT[31]' driven by pin 'preAdd_F/D_OUT[31]' has no loads. (LINT-2)
+Warning: In design 'mkdut', net 'preAdd_F_D_OUT[63]' driven by pin 'preAdd_F/D_OUT[63]' has no loads. (LINT-2)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInpVal_ma_in[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putTermReq_ma_in1[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putTermReq_ma_in1[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putTermReq_ma_in1[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putTermReq_ma_in1[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putTermReq_ma_in1[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putTermReq_ma_in1[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_n[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', port 'putInitial_ma_m[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'mkdut', output port 'RDY_getTermReq_mv' is connected directly to output port 'RDY_putTermReq_ma'. (LINT-31)
+Warning: In design 'mkdut', a pin on submodule 'inp_F' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CLR' is connected to logic 0. 
+Warning: In design 'mkdut', a pin on submodule 'preAdd_F' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CLR' is connected to logic 0. 
+Warning: In design 'mkdut', a pin on submodule 'preCom_F' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'D_IN[31]' is connected to logic 1. 
+Warning: In design 'mkdut', a pin on submodule 'preCom_F' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CLR' is connected to logic 0. 
+Warning: In design 'mkdut', a pin on submodule 'preMem_F' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CLR' is connected to logic 0. 
+Warning: In design 'mkdut', a pin on submodule 'preTrace_F' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CLR' is connected to logic 0. 
+Warning: In design 'mkdut', output port 'RDY_getTermReq_mv' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'mkdut', output port 'RDY_putTermReq_ma' is connected directly to 'logic 1'. (LINT-52)
+1

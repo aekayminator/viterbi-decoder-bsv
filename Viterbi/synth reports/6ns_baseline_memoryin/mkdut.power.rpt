@@ -1,0 +1,218 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : mkdut
+Version: U-2022.12
+Date   : Thu Nov  6 09:39:43 2025
+****************************************
+
+
+Library(s) Used:
+
+    saed32lvt_ss0p75v25c (File: /home/tools/pdk/SAED32nm_EDK_02_2024/lib/stdcell_lvt/db_nldm/saed32lvt_ss0p75v25c.db)
+
+
+Operating Conditions: ss0p75v25c   Library: saed32lvt_ss0p75v25c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+mkdut                  35000             saed32lvt_ss0p75v25c
+FIFO2_00000009_1       8000              saed32lvt_ss0p75v25c
+FIFO2_00000043_1       8000              saed32lvt_ss0p75v25c
+FIFO2_00000023_1       8000              saed32lvt_ss0p75v25c
+FIFO2_00000031_1       8000              saed32lvt_ss0p75v25c
+FIFO2_00000010_1       8000              saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_72
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_71
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_70
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_69
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_68
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_67
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_66
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_65
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_64
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_63
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_62
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_61
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_60
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_59
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_58
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_57
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_56
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_55
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_54
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_53
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_52
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_51
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_50
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_49
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_48
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_47
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_46
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_45
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_44
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_43
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_42
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_41
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_40
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_39
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_38
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_37
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_36
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_35
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_34
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_33
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_32
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_31
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_30
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_29
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_28
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_27
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_26
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_25
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_24
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_23
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_22
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_21
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_20
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_19
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_18
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_17
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_16
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_15
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_14
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_13
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_12
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_11
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_10
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_9
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_8
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_7
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_6
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_5
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_4
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_3
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_2
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_1
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_mkdut_0
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000009_1_1
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000009_1_0
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000043_1_1
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000043_1_0
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000023_1_1
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000023_1_0
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000031_1_1
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000031_1_0
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000010_1_1
+                       ForQA             saed32lvt_ss0p75v25c
+SNPS_CLOCK_GATE_HIGH_FIFO2_00000010_1_0
+                       ForQA             saed32lvt_ss0p75v25c
+
+
+Global Operating Voltage = 0.75 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+mkdut                                   106.199  716.897 7.48e+08 1.57e+03 100.0
+  preTrace_F (FIFO2_00000010_1)           0.199    1.328 8.66e+06   10.187   0.6
+  preMem_F (FIFO2_00000031_1)             1.256    7.969 2.28e+07   32.002   2.0
+  preCom_F (FIFO2_00000023_1)             1.742   11.566 2.04e+07   33.668   2.1
+  preAdd_F (FIFO2_00000043_1)             4.396   30.755 3.77e+07   72.839   4.6
+  inp_F (FIFO2_00000009_1)                0.677    4.606 6.17e+06   11.456   0.7
+1
