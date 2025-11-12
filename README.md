@@ -8,9 +8,8 @@ This project is a high-performance, pipelined Viterbi decoder implemented in Blu
 It implements the Viterbi algorithm in the log-probability domain, using the `min-sum` recurrence to maintain numerical stability. The core's microarchitecture is a streaming, deeply pipelined design, featuring a custom, 2-stage pipelined IEEE-754 FP32 adder to achieve a high clock frequency.
 
 The design was rigorously verified using a comprehensive Python-based test harness. This environment automates a loop of generating randomized test cases (varying $N$, $M$, and sequence length), checking the BSV simulation output against a bit-accurate golden Python model, and logging the results. This automated flow was supplemented by manual, targeted testing for corner cases in the FP32 adder and the $N<5$ RAW hazard.
-(Detailed Report Attached)
----
 
+(Detailed Report Attached)
 
 ### 2. Individual Contributions
 
